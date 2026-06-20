@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-sage-50: #f4f7f4;
+  --color-sage-100: #e3ebe3;
+  --color-sage-200: #c7d9c7;
+  --color-sage-300: #9ebf9e;
+  --color-sage-400: #74a074;
+  --color-sage-500: #518451;
+  --color-sage-600: #3f683f;
+  --color-sage-700: #345334;
+  --color-sage-800: #2c422c;
+  --color-sage-900: #253725;
+  --color-sage-950: #121e12;
+
+  --color-sand-50: #fbfaf8;
+  --color-sand-100: #f5f2eb;
+  --color-sand-200: #ebe2d3;
+  --color-sand-300: #dfccb3;
+  --color-sand-400: #ceaf8e;
+  --color-sand-500: #c29870;
+  --color-sand-600: #b58359;
+  --color-sand-700: #976a4a;
+  --color-sand-800: #7c573f;
+  --color-sand-900: #654836;
+  --color-sand-950: #36251b;
+}
+
+@layer base {
+  :root {
+    --background: var(--color-sand-50);
+    --foreground: var(--color-sage-950);
+    --card: rgba(255, 255, 255, 0.6);
+    --primary: var(--color-sage-500);
+    --border: rgba(116, 160, 116, 0.2);
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-[var(--card)] backdrop-blur-xl shadow-lg;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .glass-button {
+    @apply bg-white/60 backdrop-blur-md transition-all duration-300 shadow-sm hover:shadow-md;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .glass-button:hover {
+    @apply bg-white/80;
+  }
+
+  .text-gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-sage-600)] via-[var(--color-sage-700)] to-[var(--color-sand-800)];
+  }
+
+  .retro-shadow {
+    box-shadow: 4px 4px 0px 0px var(--color-sage-700);
+  }
+}
