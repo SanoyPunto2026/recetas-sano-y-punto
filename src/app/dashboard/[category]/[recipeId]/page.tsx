@@ -187,7 +187,7 @@ export default function RecipeDetail({ params }: { params: Promise<{ category: s
   const handleDownload = async (type: 'recipe' | 'list') => {
     setIsDownloading(true);
     const htmlContent = getPDFHTML(type);
-    const opt = {
+    const opt: any = {
       margin:       [10, 10, 10, 10],
       filename:     type === 'recipe' ? `Receta_${recipe?.nombre_receta?.replace(/\s+/g, '_')}.pdf` : 'Lista_de_Compra_SanoYPunto.pdf',
       image:        { type: 'jpeg', quality: 0.98 },
