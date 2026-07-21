@@ -2,16 +2,32 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { loginAction } from "./actions";
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
+  const [loading, setLoading] = useState(false);
   const router = useRouter();
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate login and redirect to dashboard
-    router.push("/dashboard");
+    setErrorMsg("");
+    setLoading(true);
+
+    try {
+      const result = await loginAction(password);
+      if (result.success) {
+        router.push("/dashboard");
+      } else {
+        setErrorMsg(result.error || "Error al iniciar sesión");
+      }
+    } catch (err) {
+      setErrorMsg("Error inesperado al conectar con el servidor");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -22,6 +38,12 @@ export default function Login() {
           <p className="text-gray-500 mt-2">Ingresa a tu Bóveda de Recetas</p>
         </div>
         
+        {errorMsg && (
+          <div className="p-3 bg-red-100 text-red-700 rounded-lg text-sm text-center">
+            {errorMsg}
+          </div>
+        )}
+
         <form onSubmit={handleLogin} className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700">Usuario o Email</label>
@@ -47,9 +69,10 @@ export default function Login() {
           </div>
           <button 
             type="submit"
-            className="w-full py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition duration-200"
+            disabled={loading}
+            className="w-full py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition duration-200 disabled:opacity-50"
           >
-            Entrar al Recetario
+            {loading ? "Verificando..." : "Entrar al Recetario"}
           </button>
         </form>
       </div>

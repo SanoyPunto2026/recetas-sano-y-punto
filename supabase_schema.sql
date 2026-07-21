@@ -36,3 +36,17 @@ CREATE TABLE IF NOT EXISTS banco_recetas (
 -- Políticas de Seguridad (RLS) para permitir lectura pública
 ALTER TABLE banco_recetas ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Lectura publica para banco_recetas" ON banco_recetas FOR SELECT USING (true);
+
+-- Tabla para guardar configuraciones de la app, como la contraseña maestra
+CREATE TABLE IF NOT EXISTS app_settings (
+    key TEXT PRIMARY KEY,
+    value TEXT NOT NULL,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- Insertar la contraseña maestra por defecto (SOLO SE PUEDE CAMBIAR DESDE AQUÍ O EL PANEL DE SUPABASE)
+INSERT INTO app_settings (key, value) VALUES ('master_password', 'S&77a.') ON CONFLICT (key) DO NOTHING;
+
+-- Habilitar RLS pero NO agregar política de lectura pública.
+-- Solo el backend con el Service Role Key podrá leer la contraseña maestra.
+ALTER TABLE app_settings ENABLE ROW LEVEL SECURITY;
