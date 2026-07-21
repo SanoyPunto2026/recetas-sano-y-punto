@@ -2,14 +2,18 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 export function proxy(request: NextRequest) {
-  // Solo proteger las rutas que empiecen por /dashboard
-  if (request.nextUrl.pathname.startsWith('/dashboard')) {
-    const authCookie = request.cookies.get('recetario_auth_token');
+  const authCookie = request.cookies.get('recetario_auth_token');
+  const isAuthenticated = authCookie && authCookie.value === 'authenticated';
+  const isLoginPage = request.nextUrl.pathname.startsWith('/login');
 
-    if (!authCookie || authCookie.value !== 'authenticated') {
-      // Si no está autenticado, redirigir al login (raíz)
-      return NextResponse.redirect(new URL('/', request.url));
-    }
+  // Si está logueado y trata de entrar a /login, enviarlo al dashboard
+  if (isAuthenticated && isLoginPage) {
+    return NextResponse.redirect(new URL('/dashboard', request.url));
+  }
+
+  // Si no está logueado y trata de entrar a cualquier ruta protegida (dashboard)
+  if (!isAuthenticated && request.nextUrl.pathname.startsWith('/dashboard')) {
+    return NextResponse.redirect(new URL('/login', request.url));
   }
 
   return NextResponse.next();
@@ -18,5 +22,6 @@ export function proxy(request: NextRequest) {
 export const config = {
   matcher: [
     '/dashboard/:path*',
+    '/login'
   ],
 };
