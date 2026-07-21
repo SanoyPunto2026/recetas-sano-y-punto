@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { loginAction } from "../actions";
 
 export default function Login() {
@@ -31,21 +32,29 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-[#fbfaf8]">
-      {/* Elementos decorativos de fondo orgánicos */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-30">
-        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-[#e3ebe3] rounded-full blur-[100px]" />
-        <div className="absolute bottom-[-20%] right-[-10%] w-[60%] h-[60%] bg-[#dfccb3] rounded-full blur-[120px]" />
+    <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-[#f5f2eb]">
+      {/* Elementos decorativos de fondo orgánicos y fluidos */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-60">
+        <div className="absolute top-[-10%] left-[-10%] w-[60%] h-[60%] bg-gradient-to-br from-[#c7d9c7] to-[#9ebf9e] rounded-full blur-[120px] mix-blend-multiply" />
+        <div className="absolute bottom-[-20%] right-[-10%] w-[70%] h-[70%] bg-gradient-to-tl from-[#dfccb3] to-[#ceaf8e] rounded-full blur-[140px] mix-blend-multiply" />
       </div>
 
       <div className="z-10 w-full max-w-md p-6">
-        <div className="glass rounded-[2rem] p-10 md:p-12 shadow-2xl backdrop-blur-xl border border-white/40">
+        <div className="rounded-[2.5rem] p-10 md:p-12 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] backdrop-blur-2xl bg-white/30 border border-white/60 relative overflow-hidden">
           
-          <div className="text-center mb-10">
-            <h1 className="text-4xl md:text-5xl font-black text-[#253725] tracking-tight mb-3">
-              Sano y Punto
-            </h1>
-            <p className="text-[#518451] font-medium text-lg tracking-wide opacity-90">
+          {/* Brillo sutil dentro de la tarjeta */}
+          <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/40 to-transparent pointer-events-none" />
+
+          <div className="text-center mb-10 relative z-10 flex flex-col items-center">
+            <Image 
+              src="/logo_brand_final.png" 
+              alt="Sano y Punto" 
+              width={220} 
+              height={90} 
+              className="mb-4 drop-shadow-md"
+              priority
+            />
+            <p className="text-[#345334] font-semibold text-lg tracking-widest uppercase text-xs opacity-90">
               Bóveda de Recetas
             </p>
           </div>
