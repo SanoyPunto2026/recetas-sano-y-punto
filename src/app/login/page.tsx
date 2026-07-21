@@ -46,14 +46,14 @@ export default function Login() {
           <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/40 to-transparent pointer-events-none" />
 
           <div className="text-center mb-10 relative z-10 flex flex-col items-center">
-            {/* Contenedor del logo con clip-path para eliminar el fondo cuadriculado y añadir sombra real */}
-            <div className="relative mb-4 rounded-full shadow-[0_10px_25px_rgba(37,55,37,0.3)] bg-white">
+            {/* Contenedor del logo minimalista con sombra real */}
+            <div className="relative mb-4 rounded-full shadow-[0_10px_25px_rgba(37,55,37,0.3)] bg-white overflow-hidden flex items-center justify-center w-[100px] h-[100px]">
               <Image 
-                src="/logo_brand_final.png" 
+                src="/logo_brand_minimal.png" 
                 alt="Sano y Punto" 
-                width={110} 
-                height={110} 
-                className="[clip-path:circle(43%_at_50%_50%)]"
+                width={100} 
+                height={100} 
+                className="w-full h-full object-cover"
                 priority
               />
             </div>
