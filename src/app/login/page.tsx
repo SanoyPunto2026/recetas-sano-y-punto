@@ -46,15 +46,18 @@ export default function Login() {
           <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/40 to-transparent pointer-events-none" />
 
           <div className="text-center mb-10 relative z-10 flex flex-col items-center">
-            <Image 
-              src="/logo_brand_final.png" 
-              alt="Sano y Punto" 
-              width={220} 
-              height={90} 
-              className="mb-4 drop-shadow-md"
-              priority
-            />
-            <p className="text-[#345334] font-semibold text-lg tracking-widest uppercase text-xs opacity-90">
+            {/* Contenedor del logo con clip-path para eliminar el fondo cuadriculado y añadir sombra real */}
+            <div className="relative mb-4 rounded-full shadow-[0_10px_25px_rgba(37,55,37,0.3)] bg-white">
+              <Image 
+                src="/logo_brand_final.png" 
+                alt="Sano y Punto" 
+                width={110} 
+                height={110} 
+                className="[clip-path:circle(43%_at_50%_50%)]"
+                priority
+              />
+            </div>
+            <p className="text-[#345334] font-semibold text-lg tracking-widest uppercase text-xs opacity-90 mt-2">
               Bóveda de Recetas
             </p>
           </div>
