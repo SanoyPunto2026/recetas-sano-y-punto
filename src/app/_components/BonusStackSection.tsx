@@ -23,25 +23,25 @@ const bonuses = [
       icon: TrendingUp,
       title: "+10 Recetas Nuevas Cada Mes",
       description: "La bóveda crece constantemente. Cada mes sumamos al menos 10 recetas nuevas verificadas y probadas.",
-      value: "$5/mes"
+      value: "$5"
    },
    {
       icon: FileDown,
       title: "Descarga en PDF Premium",
       description: "Cada receta se puede descargar como tarjeta PDF de alta resolución. Llévala al súper o imprímela en tu cocina.",
-      value: "$3/mes"
+      value: "$3"
    },
    {
       icon: RefreshCw,
       title: "Guía de Sustitución de Ingredientes",
       description: "¿No tienes un ingrediente? Nuestro sistema te sugiere sustitutos que cumplen la misma función sin arruinar el plato.",
-      value: "$4/mes"
+      value: "$4"
    },
    {
       icon: Search,
       title: "Motor de Filtros Inteligente",
       description: "Encuentra tu receta ideal filtrando por dificultad, tiempo de preparación y enfoque del chef (país/región).",
-      value: "$3/mes"
+      value: "$3"
    },
    {
       icon: Gift,
@@ -84,8 +84,8 @@ export default function BonusStackSection() {
             </div>
 
             <div className="mt-12 text-center">
-               <p className="text-white/50 text-sm uppercase tracking-widest font-bold">Valor total: <span className="line-through">$15+/mes</span></p>
-               <p className="text-white text-3xl md:text-4xl font-bold mt-2">Todo incluido por <span className="text-[#D4A373]">$10/mes</span></p>
+               <p className="text-white/50 text-sm uppercase tracking-widest font-bold">Valor total: <span className="line-through">$15+ USD</span></p>
+               <p className="text-white text-3xl md:text-4xl font-bold mt-2">Todo incluido por <span className="text-[#D4A373]">$10 USD</span> <span className="text-lg text-white/60">(pago único)</span></p>
             </div>
          </div>
       </section>

@@ -37,12 +37,15 @@ export default function OfferSection() {
 
               <div className="text-center relative">
                  <div className="mb-4">
-                    <span className="text-sm md:text-xl font-medium uppercase tracking-[0.2em] opacity-40 block mb-1 text-[#253725] line-through">Valor Real: $30,00/mes</span>
+                    <span className="text-sm md:text-xl font-medium uppercase tracking-[0.2em] opacity-40 block mb-1 text-[#253725] line-through">Valor Real: $30,00 USD</span>
                     <div className="relative inline-block">
                        <div className="text-8xl md:text-[9.5rem] font-sans font-bold text-[#253725] relative z-10 bg-gradient-to-br from-[#253725] via-[#74a074] to-[#253725] bg-clip-text text-transparent animate-shimmer bg-[length:200%_auto] tracking-tighter leading-[1] py-1 px-4 overflow-visible">
-                          $10<span className="text-4xl md:text-5xl">/mes</span>
+                          $10
                        </div>
                        <div className="absolute inset-x-0 bottom-2 h-4 bg-[#74a074]/20 blur-3xl rounded-full scale-150 animate-pulse" />
+                    </div>
+                    <div className="flex items-center justify-center gap-2 mt-2">
+                       <span className="bg-[#345334]/10 text-[#345334] text-xs md:text-sm font-black uppercase tracking-widest px-4 py-1.5 rounded-full">Pago único • Acceso de por vida</span>
                     </div>
                  </div>
 
@@ -58,6 +61,7 @@ export default function OfferSection() {
                     <ShieldCheck size={20} className="text-[#74a074]" />
                     <p className="text-[10px] md:text-xs font-bold uppercase tracking-widest leading-normal">30 días de reembolso sin preguntas • Pago 100% Protegido</p>
                  </div>
+                 <p className="mt-4 text-[10px] md:text-xs text-[#654836]/60 italic leading-relaxed max-w-md mx-auto">El valor está expresado en dólares americanos (USD). Al pasar al checkout, el monto será automáticamente convertido a tu moneda local.</p>
               </div>
            </div>
         </div>

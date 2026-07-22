@@ -29,7 +29,7 @@ export default function FaqSection() {
       { q: "¿Si no tengo un ingrediente?", a: "La bóveda incluye un sistema de sustitución de ingredientes. Si no tienes algo, te sugerimos alternativas que cumplen la misma función sin afectar el resultado final del plato." },
       { q: "¿Cada cuánto se añaden recetas nuevas?", a: "Mínimo 10 recetas nuevas cada mes, verificadas y probadas por nuestro equipo. Tu biblioteca de recetas crece constantemente." },
       { q: "¿Qué pasa si no me convence?", a: "Tienes 30 días de garantía de devolución completa, sin preguntas. Si sientes que no es para ti, nos escribes y te reembolsamos el 100%." },
-      { q: "¿El precio de $10/mes subirá?", a: "Sí. Este es el precio exclusivo de lanzamiento para miembros fundadores. Cuando se publiquen todas las bóvedas, el precio subirá para nuevos miembros. Tú mantendrás tu precio de fundador." },
+      { q: "¿Tengo que pagar una mensualidad?", a: "No. El precio de $10 USD es un pago único. Tendrás acceso de por vida a la bóveda y a todas las actualizaciones y nuevas recetas que añadamos en el futuro sin pagos recurrentes ni sorpresas." },
    ];
 
    return (
