@@ -17,7 +17,7 @@ const dmSerif = DM_Serif_Display({
 
 export const metadata: Metadata = {
   title: "Bóveda de Recetas | Sano y Punto",
-  description: "Tu bóveda exclusiva de recetas saludables. Airfryer, sin gluten, cocina mediterránea y más. Acceso ilimitado desde $10/mes.",
+  description: "Tu bóveda exclusiva de recetas saludables. Airfryer, sin gluten, cocina mediterránea y más. Acceso de por vida por solo $10 USD.",
   icons: {
     icon: '/favicon.ico',
   },
