@@ -1,5 +1,5 @@
 'use client';
-import { Leaf } from 'lucide-react';
+import { Leaf, ArrowDownToLine } from 'lucide-react';
 import Link from 'next/link';
 
 export default function StickyHeader() {
@@ -16,6 +16,16 @@ export default function StickyHeader() {
                      <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-[#4A6741] to-[#8B7355]">Punto.</span>
                   </div>
                </div>
+            </div>
+            
+            <div className="flex items-center">
+               <a 
+                  href="#oferta" 
+                  aria-label="Ir a la oferta"
+                  className="w-10 h-10 md:w-12 md:h-12 bg-[#345334]/10 text-[#345334] rounded-full flex items-center justify-center hover:bg-[#345334]/20 hover:scale-105 active:scale-95 transition-all shadow-sm"
+               >
+                  <ArrowDownToLine size={20} strokeWidth={2.5} />
+               </a>
             </div>
          </div>
       </nav>

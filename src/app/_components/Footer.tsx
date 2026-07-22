@@ -27,7 +27,7 @@ export default function Footer() {
    return (
       <footer className="py-[90px] md:py-[100px] bg-[#253725] text-white/60">
          <div className="max-w-[1240px] mx-auto px-6">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-20 mb-20">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20 mb-20">
                <div className="col-span-1 md:col-span-2 lg:col-span-1">
                   <div className="font-sans text-4xl font-black mb-8 text-white tracking-tighter flex items-center gap-2">
                      <span>Sano &</span>
@@ -52,13 +52,7 @@ export default function Footer() {
                      ))}
                   </div>
                </div>
-               <div>
-                  <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-8">Navegación</h4>
-                  <ul className="space-y-4">
-                     <li><a href="#oferta" className="hover:text-white transition-colors">Ver Oferta</a></li>
-                     <li><Link href="/login" className="hover:text-white transition-colors">Iniciar Sesión</Link></li>
-                  </ul>
-               </div>
+
                <div>
                   <h4 className="text-white font-bold uppercase tracking-widest text-sm mb-8">Legal</h4>
                   <ul className="space-y-4">
