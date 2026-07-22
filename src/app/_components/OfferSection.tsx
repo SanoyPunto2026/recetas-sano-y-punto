@@ -50,7 +50,7 @@ export default function OfferSection() {
                  </div>
 
                  <a 
-                    href="#"
+                    href="https://pay.hotmart.com/H106832606H?checkoutMode=10"
                     className="relative overflow-hidden w-full bg-[#345334] text-white py-4 md:py-6 rounded-2xl text-lg md:text-2xl font-black shadow-2xl hover:bg-[#253725] transition-all group uppercase tracking-[0.1em] flex items-center justify-center gap-4 text-center px-4"
                  >
                     Quiero acceso a la Bóveda <ArrowRight className="group-hover:translate-x-2 transition-transform" />
