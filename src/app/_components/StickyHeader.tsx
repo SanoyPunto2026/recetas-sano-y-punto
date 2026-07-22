@@ -17,23 +17,6 @@ export default function StickyHeader() {
                   </div>
                </div>
             </div>
-            
-            <div className="flex items-center gap-3 md:gap-6">
-               <Link 
-                  href="/login"
-                  className="text-[#4A3728] text-xs md:text-sm font-bold uppercase tracking-widest hover:text-[#D4A373] transition-colors hidden md:inline"
-               >
-                  Iniciar Sesión
-               </Link>
-               <a 
-                  href="#oferta" 
-                  aria-label="Acceder a la bóveda de recetas"
-                  className="bg-[#345334] text-white w-10 h-10 md:w-auto md:h-auto md:px-8 md:py-3.5 rounded-full text-[11px] font-black uppercase tracking-widest hover:bg-[#253725] transition-all shadow-md active:scale-95 flex items-center justify-center gap-2"
-               >
-                  <span className="hidden md:inline">ACCEDER</span>
-                  <Leaf size={18} className="md:hidden" />
-               </a>
-            </div>
          </div>
       </nav>
    );

@@ -61,6 +61,11 @@ export default function Dashboard() {
 
   const [searchInput, setSearchInput] = useState("");
 
+  const handleLogout = () => {
+    document.cookie = "recetario_auth_token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    window.location.href = "/login";
+  };
+
   const clearSearch = () => {
     setSearchInput("");
   };
@@ -85,7 +90,7 @@ export default function Dashboard() {
           </div>
           
           <div className="flex items-center gap-4">
-            <button className="text-sm font-bold opacity-60 hover:opacity-100 transition">Salir</button>
+            <button onClick={handleLogout} className="text-sm font-bold opacity-60 hover:opacity-100 transition">Salir</button>
           </div>
         </div>
       </header>
