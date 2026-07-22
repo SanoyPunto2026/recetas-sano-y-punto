@@ -1,44 +1,71 @@
 'use client';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Play, ShieldCheck, Lock, Star } from 'lucide-react';
 
 export default function HeroSection() {
    return (
       <section className="pt-[40px] md:pt-[60px] pb-[60px] md:pb-[100px] px-6 text-center">
-         <div className="max-w-[1000px] mx-auto">
-            <div className="flex items-center justify-center gap-4 md:gap-6 mb-6">
-               <div className="h-[2px] w-8 md:w-24 bg-[#D4A373]/60"></div>
-               <span className="text-[#D4A373] text-[9px] md:text-sm font-black uppercase tracking-[0.2em] md:tracking-[0.3em]">
-                  LANZAMIENTO FUNDADORES 2026
+         <div className="max-w-[900px] mx-auto">
+            
+            {/* 1. Título (Problema + Oferta + Curiosidad) */}
+            <h1 className="mb-8 md:mb-10 leading-[1.15] md:leading-tight">
+               <span className="block text-[32px] sm:text-[40px] md:text-[55px] lg:text-[65px] text-[#253725] font-sans font-bold tracking-tight">
+                  ¿Cansado de pensar qué cocinar todos los días?
                </span>
-               <div className="h-[2px] w-8 md:w-24 bg-[#D4A373]/60"></div>
-            </div>
-
-            <h1 className="mb-8 md:mb-12 leading-[1.1] md:leading-tight">
-               <span className="block text-[38px] sm:text-[45px] md:text-[80px] lg:text-[100px] text-[#253725] font-sans font-bold tracking-tight">TU BÓVEDA</span>
-               <span className="block text-[35px] sm:text-[40px] md:text-[75px] lg:text-[95px] italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 overflow-visible">
-                  de recetas
+               <span className="block text-[28px] sm:text-[35px] md:text-[45px] lg:text-[55px] italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 mt-2">
+                  Descubre el atajo para comer delicioso sin estrés.
                </span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-[#654836] max-w-2xl mx-auto mb-8 font-light leading-snug">
-               <span className="block text-[#253725] font-bold mb-2">6 categorías. Cientos de recetas. Acceso ilimitado.</span>
-               Cocina saludable, deliciosa y rápida sin pensar qué hacer de comer.{' '}
-               <span className="text-[#253725] font-semibold">Airfryer, sin gluten, mediterránea y mucho más.</span>
+            {/* 2. Video Placeholder */}
+            <div className="relative w-full aspect-video bg-[#253725] rounded-3xl md:rounded-[40px] overflow-hidden shadow-2xl mb-10 group cursor-pointer border border-[#EBE6DD]/20">
+               {/* Fondo simulando video */}
+               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay group-hover:opacity-50 transition-opacity duration-700"></div>
+               <div className="absolute inset-0 bg-gradient-to-t from-[#253725]/80 via-transparent to-transparent"></div>
+               
+               {/* Botón Play (solo visual) */}
+               <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-20 h-20 md:w-24 md:h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-white/30 transition-all duration-300 shadow-xl border border-white/30">
+                     <Play className="text-white w-8 h-8 md:w-10 md:h-10 ml-2" fill="currentColor" />
+                  </div>
+               </div>
+            </div>
+
+            {/* 3. Texto corto para aterrizar */}
+            <p className="text-lg md:text-2xl text-[#654836] max-w-2xl mx-auto mb-10 font-medium leading-relaxed">
+               Accede a nuestra bóveda secreta con cientos de recetas probadas. Airfryer, sin gluten, mediterránea y mucho más. 
+               <span className="block text-[#253725] font-bold mt-2">Tu cocina está a punto de transformarse.</span>
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-8 items-center justify-center mt-8">
-               <a href="#oferta" className="bg-[#345334] text-white px-10 py-6 rounded-2xl text-xl font-bold shadow-2xl hover:scale-105 transition-all flex items-center gap-4 whitespace-nowrap hover:bg-[#253725]">
-                  ACCEDER A LA BÓVEDA <ArrowRight />
+            {/* 4. Botón CTA Sentimental */}
+            <div className="flex flex-col items-center justify-center">
+               <a 
+                  href="#oferta" 
+                  className="bg-[#345334] text-white px-8 md:px-12 py-5 md:py-6 rounded-2xl text-lg md:text-xl font-black shadow-[0_20px_50px_rgba(52,83,52,0.3)] hover:scale-105 hover:shadow-[0_20px_50px_rgba(52,83,52,0.5)] active:scale-95 transition-all flex items-center gap-4 text-center hover:bg-[#253725] uppercase tracking-wide"
+               >
+                  Quiero comer sano sin perder la cabeza <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
                </a>
             </div>
 
-            {/* Trust bar */}
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-6 text-xs md:text-sm text-[#654836]/60 font-bold uppercase tracking-widest">
-               <span>✓ 30 días de garantía</span>
-               <span className="hidden md:inline">•</span>
-               <span>✓ +10 recetas nuevas/mes</span>
-               <span className="hidden md:inline">•</span>
-               <span>✓ Descarga PDF</span>
+            {/* Trust bar & Badges */}
+            <div className="mt-8 flex flex-col items-center gap-6">
+               <div className="flex items-center gap-1 text-[#D4A373]">
+                  {[...Array(5)].map((_, i) => (
+                     <Star key={i} fill="currentColor" className="w-4 h-4 md:w-5 md:h-5" />
+                  ))}
+                  <span className="text-[#253725] font-bold text-xs md:text-sm ml-2 opacity-80">+5,000 alumnas felices</span>
+               </div>
+               
+               <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-[11px] md:text-sm text-[#654836]/70 font-bold uppercase tracking-widest">
+                  <div className="flex items-center gap-2">
+                     <ShieldCheck className="w-5 h-5 text-[#4A6741]" />
+                     <span>30 días de garantía</span>
+                  </div>
+                  <span className="hidden md:inline text-[#EBE6DD]">•</span>
+                  <div className="flex items-center gap-2">
+                     <Lock className="w-5 h-5 text-[#4A6741]" />
+                     <span>Pago 100% Seguro</span>
+                  </div>
+               </div>
             </div>
          </div>
       </section>
