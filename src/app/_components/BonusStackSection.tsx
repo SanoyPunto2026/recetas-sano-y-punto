@@ -1,9 +1,10 @@
 'use client';
-import { motion } from 'framer-motion';
-import { RefreshCw, FileDown, Search, TrendingUp, Gift } from 'lucide-react';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { RefreshCw, FileDown, Search, TrendingUp, Gift, Lock, ChevronDown } from 'lucide-react';
 
 const SectionTitle = ({ children, subtitle }: { children: React.ReactNode; subtitle?: string }) => (
-   <div className="mb-16 md:mb-24 text-center">
+   <div className="mb-12 md:mb-16 text-center">
       {subtitle && (
          <motion.span
             initial={{ opacity: 0, y: 10 }}
@@ -14,7 +15,7 @@ const SectionTitle = ({ children, subtitle }: { children: React.ReactNode; subti
             {subtitle}
          </motion.span>
       )}
-      <h2 className="text-4xl md:text-6xl font-sans font-bold tracking-tight leading-[1.1] text-white">{children}</h2>
+      <h2 className="text-4xl md:text-6xl font-sans font-bold tracking-tight leading-[1.1] text-[#253725]">{children}</h2>
    </div>
 );
 
@@ -52,40 +53,91 @@ const bonuses = [
 ];
 
 export default function BonusStackSection() {
+   const [unlocked, setUnlocked] = useState<number[]>([]);
+
+   const toggleUnlock = (idx: number) => {
+      if (unlocked.includes(idx)) {
+         setUnlocked(unlocked.filter(i => i !== idx));
+      } else {
+         setUnlocked([...unlocked, idx]);
+      }
+   };
+
    return (
-      <section className="py-[90px] md:py-[100px] bg-[#253725] relative overflow-hidden">
-         <div className="absolute -top-20 -right-20 text-[20rem] font-black italic opacity-[0.03] select-none text-white leading-none pointer-events-none">BONUS</div>
+      <section className="py-[90px] md:py-[100px] bg-[#FDFBF7] relative overflow-hidden">
+         <div className="absolute -top-10 -left-10 text-[15rem] font-black italic opacity-[0.02] select-none text-[#253725] leading-none pointer-events-none">REGALOS</div>
          
-         <div className="max-w-[900px] mx-auto px-6 relative z-10">
+         <div className="max-w-[1000px] mx-auto px-6 relative z-10">
             <SectionTitle subtitle="El Stack de Valor">Todo lo que recibes<br />además de las recetas</SectionTitle>
 
-            <div className="space-y-4">
-               {bonuses.map((bonus, i) => (
-                  <motion.div
-                     key={i}
-                     initial={{ opacity: 0, x: -20 }}
-                     whileInView={{ opacity: 1, x: 0 }}
-                     viewport={{ once: true }}
-                     transition={{ delay: i * 0.1 }}
-                     className="bg-white/10 backdrop-blur-sm border border-white/10 rounded-3xl p-6 md:p-8 flex gap-6 items-start hover:bg-white/15 transition-colors group"
-                  >
-                     <div className="bg-white/10 p-3 rounded-2xl shrink-0 group-hover:bg-[#D4A373]/20 transition-colors">
-                        <bonus.icon size={24} className="text-[#D4A373]" />
-                     </div>
-                     <div className="flex-1">
-                        <div className="flex items-start justify-between gap-4 mb-2">
-                           <h4 className="text-lg md:text-xl font-bold text-white">{bonus.title}</h4>
-                           <span className="text-sm font-bold text-[#D4A373] line-through opacity-60 shrink-0">{bonus.value}</span>
-                        </div>
-                        <p className="text-sm text-white/60 italic leading-relaxed">{bonus.description}</p>
-                     </div>
-                  </motion.div>
-               ))}
+            <div className="text-center mb-12">
+               <div className="inline-block bg-[#345334]/10 text-[#345334] px-6 py-3 rounded-full text-sm md:text-base font-bold animate-pulse shadow-sm">
+                  Toca cada tarjeta para revelar tu bonus especial 👇
+               </div>
             </div>
 
-            <div className="mt-12 text-center">
-               <p className="text-white/50 text-sm uppercase tracking-widest font-bold">Valor total: <span className="line-through">$15+ USD</span></p>
-               <p className="text-white text-3xl md:text-4xl font-bold mt-2">Todo incluido por <span className="text-[#D4A373]">$10 USD</span> <span className="text-lg text-white/60">(pago único)</span></p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+               {bonuses.map((bonus, i) => {
+                  const isUnlocked = unlocked.includes(i);
+                  return (
+                     <motion.div
+                        key={i}
+                        layout
+                        onClick={() => toggleUnlock(i)}
+                        className={`cursor-pointer overflow-hidden border rounded-[30px] p-6 transition-all duration-500 ${
+                           isUnlocked 
+                              ? 'bg-white border-[#345334]/30 shadow-[0_15px_40px_-10px_rgba(52,83,52,0.15)]' 
+                              : 'bg-white/50 border-[#EBE6DD] shadow-sm hover:shadow-md hover:-translate-y-1'
+                        }`}
+                     >
+                        <div className="flex items-center gap-4">
+                           <div className={`w-12 h-12 rounded-full flex shrink-0 items-center justify-center transition-all ${
+                              isUnlocked ? 'bg-[#345334]/10 text-[#345334]' : 'bg-[#253725]/5 text-[#253725]/40'
+                           }`}>
+                              {isUnlocked ? <bonus.icon size={20} /> : <Lock size={20} />}
+                           </div>
+                           <div className="flex-1">
+                              <h4 className={`text-base md:text-lg font-bold tracking-tight leading-tight ${
+                                 isUnlocked ? 'text-[#253725]' : 'text-[#253725]/60'
+                              }`}>
+                                 {isUnlocked ? bonus.title : `Bonus Secreto #${i + 1}`}
+                              </h4>
+                              {!isUnlocked && <p className="text-[#654836]/50 text-[11px] md:text-sm mt-1">Haz clic para descubrir</p>}
+                           </div>
+                           <motion.div 
+                              animate={{ rotate: isUnlocked ? 180 : 0 }} 
+                              className="text-[#345334]/40 shrink-0"
+                           >
+                              <ChevronDown size={20} />
+                           </motion.div>
+                        </div>
+
+                        <AnimatePresence>
+                           {isUnlocked && (
+                              <motion.div
+                                 initial={{ height: 0, opacity: 0, marginTop: 0 }}
+                                 animate={{ height: "auto", opacity: 1, marginTop: 20 }}
+                                 exit={{ height: 0, opacity: 0, marginTop: 0 }}
+                                 className="overflow-hidden"
+                              >
+                                 <div className="pt-5 border-t border-[#F0F0F0]">
+                                    <div className="flex justify-between items-center mb-3">
+                                       <span className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-[#D4A373] bg-[#D4A373]/10 px-3 py-1 rounded-full">Valor: {bonus.value}</span>
+                                       <span className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-[#345334] bg-[#345334]/10 px-3 py-1 rounded-full">Gratis Hoy</span>
+                                    </div>
+                                    <p className="text-[#654836] text-sm md:text-base leading-relaxed">{bonus.description}</p>
+                                 </div>
+                              </motion.div>
+                           )}
+                        </AnimatePresence>
+                     </motion.div>
+                  )
+               })}
+            </div>
+
+            <div className="mt-20 text-center">
+               <p className="text-[#654836]/60 text-sm uppercase tracking-widest font-bold">Valor total de bonos: <span className="line-through">$15+ USD</span></p>
+               <p className="text-[#253725] text-3xl md:text-5xl font-black mt-3">Todo incluido por <span className="text-[#345334] bg-[#345334]/10 px-4 py-1 rounded-2xl">$10 USD</span> <span className="text-lg text-[#654836] italic">(pago único)</span></p>
             </div>
          </div>
       </section>

@@ -28,8 +28,8 @@ const BenefitCard = ({ icon: Icon, title, description }: { icon: any; title: str
       <div className="bg-[#EFFFF6] w-14 h-14 md:w-20 md:h-20 rounded-full flex items-center justify-center mb-3 md:mb-5 transition-transform group-hover:scale-110">
          <Icon size={28} className="text-[#10B981]" strokeWidth={2.5} />
       </div>
-      <h4 className="text-xl md:text-2xl font-sans font-bold mb-1 md:mb-3 text-[#253725] leading-tight tracking-tight">{title}</h4>
-      <p className="text-sm md:text-base text-[#654836] leading-relaxed opacity-80 italic">{description}</p>
+      <h4 className="text-2xl md:text-3xl font-sans font-bold mb-1 md:mb-3 text-[#253725] leading-tight tracking-tight">{title}</h4>
+      <p className="text-base md:text-lg text-[#654836] leading-relaxed opacity-80 italic">{description}</p>
    </motion.div>
 );
 
