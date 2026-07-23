@@ -26,6 +26,7 @@ export default function Dashboard() {
         .from("banco_recetas")
         .select("imagen_url")
         .eq("categoria", "airfryer")
+        .not("imagen_url", "is", null)
         .order("creado_en", { ascending: false })
         .limit(1);
       
