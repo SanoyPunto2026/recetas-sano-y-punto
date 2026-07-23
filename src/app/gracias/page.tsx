@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
 import StickyHeader from '../_components/StickyHeader';
-import Footer from '../_components/Footer';
 
 export default function GraciasPage() {
    return (
       <div className="min-h-screen bg-[#FDFCF7] flex flex-col">
-         <StickyHeader />
+         <StickyHeader hideButton={true} />
          
          <main className="flex-1 flex items-center justify-center py-32 px-6">
             <div className="max-w-[600px] w-full bg-white rounded-[40px] p-8 md:p-12 text-center shadow-xl border border-[#EBE6DD]">
@@ -40,8 +39,6 @@ export default function GraciasPage() {
                </p>
             </div>
          </main>
-
-         <Footer />
       </div>
    );
 }

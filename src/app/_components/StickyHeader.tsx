@@ -2,7 +2,7 @@
 import { Leaf, ArrowDownToLine } from 'lucide-react';
 import Link from 'next/link';
 
-export default function StickyHeader() {
+export default function StickyHeader({ hideButton = false }: { hideButton?: boolean }) {
    return (
       <nav className="sticky top-2 md:top-6 w-[95%] max-w-4xl mx-auto z-[100]">
          <div className="bg-white/60 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.08)] rounded-full px-4 md:px-8 py-3 md:py-4 flex justify-between items-center">
@@ -18,15 +18,17 @@ export default function StickyHeader() {
                </div>
             </div>
             
-            <div className="flex items-center">
-               <a 
-                  href="#oferta" 
-                  aria-label="Ir a la oferta"
-                  className="w-10 h-10 md:w-12 md:h-12 bg-[#345334]/10 text-[#345334] rounded-full flex items-center justify-center hover:bg-[#345334]/20 hover:scale-105 active:scale-95 transition-all shadow-sm"
-               >
-                  <ArrowDownToLine size={20} strokeWidth={2.5} />
-               </a>
-            </div>
+            {!hideButton && (
+               <div className="flex items-center">
+                  <a 
+                     href="#oferta" 
+                     aria-label="Ir a la oferta"
+                     className="w-10 h-10 md:w-12 md:h-12 bg-[#345334]/10 text-[#345334] rounded-full flex items-center justify-center hover:bg-[#345334]/20 hover:scale-105 active:scale-95 transition-all shadow-sm"
+                  >
+                     <ArrowDownToLine size={20} strokeWidth={2.5} />
+                  </a>
+               </div>
+            )}
          </div>
       </nav>
    );
