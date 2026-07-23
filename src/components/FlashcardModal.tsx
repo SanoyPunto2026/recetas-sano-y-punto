@@ -2,20 +2,20 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, ArrowLeft, X, Flame, Utensils, Clock, Droplets, Thermometer, ChefHat, Scale, ChevronRight } from "lucide-react";
+import { ArrowRight, ArrowLeft, X, Flame, Utensils, Clock, Droplets, ChefHat, Scale, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
-const IconMap: Record<string, any> = {
-    "flame": Flame,
-    "knife": Utensils,
-    "clock": Clock,
-    "droplet": Droplets,
-    "thermometer": Thermometer,
-    "chef-hat": ChefHat
-};
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export default function FlashcardModal({ recipe, onClose }: { recipe: any | null, onClose: () => void }) {
     const [currentStep, setCurrentStep] = useState(0);
     const [direction, setDirection] = useState(1);
+    const [prevRecipeId, setPrevRecipeId] = useState(recipe?.id);
+
+    if (recipe?.id !== prevRecipeId) {
+        setPrevRecipeId(recipe?.id);
+        setCurrentStep(0);
+    }
 
     // Parse pasos
     const pasos = recipe ? (Array.isArray(recipe.pasos) ? recipe.pasos : (typeof recipe.pasos === 'string' ? JSON.parse(recipe.pasos) : [])) : [];
@@ -31,12 +31,6 @@ export default function FlashcardModal({ recipe, onClose }: { recipe: any | null
             document.body.style.overflow = "unset";
         }
         return () => { document.body.style.overflow = "unset"; };
-    }, [recipe]);
-
-    useEffect(() => {
-        if (recipe) {
-            setCurrentStep(0);
-        }
     }, [recipe]);
 
     if (!recipe) return null;
@@ -129,8 +123,15 @@ export default function FlashcardModal({ recipe, onClose }: { recipe: any | null
                                     transition={{ type: "spring" as const, stiffness: 260, damping: 20 }}
                                     className="flex justify-center mb-4"
                                 >
-                                    <div className="text-8xl drop-shadow-lg">
-                                        {recipe.emoji_representativo || "🍲"}
+                                    <div className="relative rounded-full shadow-[0_10px_25px_rgba(37,55,37,0.2)] bg-white overflow-hidden flex items-center justify-center w-[120px] h-[120px] border border-stone-100">
+                                        <Image 
+                                            src="/logo_brand_minimal.png" 
+                                            alt="Sano y Punto" 
+                                            width={120} 
+                                            height={120} 
+                                            className="w-full h-full object-cover"
+                                            priority
+                                        />
                                     </div>
                                 </motion.div>
                                 <motion.div
