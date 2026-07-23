@@ -43,13 +43,13 @@ export default function TransformationSection() {
                viewport={{ once: true }}
                className="inline-block mb-6 px-4 py-2 border border-[#D4A373]/30 bg-[#D4A373]/10 rounded-full"
             >
-               <span className="text-sm md:text-lg uppercase font-black tracking-[0.2em] text-[#D4A373]">
-                  Presentamos la Bóveda de Recetas
+               <span className="text-sm md:text-lg font-bold tracking-[0.1em] text-[#D4A373]">
+                  Presentamos
                </span>
             </motion.div>
             <h2 className="text-4xl md:text-6xl font-sans font-bold tracking-tight leading-[1.1] text-[#253725]">
-               <span className="block font-sans font-bold text-[#253725] text-5xl md:text-8xl leading-[1.1]">COCINA SALUDABLE</span>
-               <span className="block font-serif italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 overflow-visible text-4xl md:text-7xl leading-[1.1]">sin complicaciones</span>
+               <span className="block font-sans font-bold text-[#253725] text-4xl md:text-7xl leading-[1.1]">La bóveda de recetas</span>
+               <span className="block font-serif italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 overflow-visible text-3xl md:text-6xl leading-[1.1]">sin complicaciones</span>
             </h2>
          </div>
 
