@@ -29,7 +29,7 @@ export default function Footer() {
          <div className="max-w-[1240px] mx-auto px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20 mb-20">
                <div className="col-span-1 md:col-span-2 lg:col-span-1">
-                  <div className="font-sans text-4xl font-black mb-8 text-white tracking-tighter flex items-center gap-2">
+                  <div className="text-4xl font-black mb-8 text-white tracking-tighter flex items-center gap-2" style={{ fontFamily: 'Arial, sans-serif' }}>
                      <span>Sano &</span>
                      <span className="italic text-[#74a074]">Punto.</span>
                   </div>
