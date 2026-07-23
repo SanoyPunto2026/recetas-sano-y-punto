@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import { Leaf } from "lucide-react";
+import { logoutAction } from "../../actions";
 
-export default function DashboardHeader({ backUrl }: { backUrl?: string }) {
-  const handleLogout = () => {
-    document.cookie = "recetario_auth_token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+export default function DashboardHeader({ backUrl, showLogout = false }: { backUrl?: string; showLogout?: boolean }) {
+  const handleLogout = async () => {
+    await logoutAction();
     window.location.href = "/login";
   };
 
@@ -31,14 +32,16 @@ export default function DashboardHeader({ backUrl }: { backUrl?: string }) {
              </Link>
           </div>
           
-          <div className="flex items-center">
-             <button 
-                onClick={handleLogout}
-                className="text-sm font-bold text-[#345334] opacity-80 hover:opacity-100 hover:scale-105 active:scale-95 transition-all bg-[#345334]/10 px-4 py-2 rounded-full border border-white/60 shadow-sm"
-             >
-                Salir
-             </button>
-          </div>
+          {showLogout && (
+            <div className="flex items-center">
+               <button 
+                  onClick={handleLogout}
+                  className="text-sm font-bold text-[#345334] opacity-80 hover:opacity-100 hover:scale-105 active:scale-95 transition-all bg-[#345334]/10 px-4 py-2 rounded-full border border-white/60 shadow-sm"
+               >
+                  Salir
+               </button>
+            </div>
+          )}
        </div>
     </nav>
   );

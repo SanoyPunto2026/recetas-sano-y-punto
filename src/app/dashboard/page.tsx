@@ -72,7 +72,7 @@ export default function Dashboard() {
         <div className="absolute bottom-[-20%] right-[-10%] w-[70%] h-[70%] bg-gradient-to-tl from-[#dfccb3] to-[#ceaf8e] rounded-full blur-[140px] mix-blend-multiply" />
       </div>
 
-      <DashboardHeader />
+      <DashboardHeader showLogout={true} />
 
       <main className="max-w-5xl mx-auto px-4 py-4 md:py-8 relative z-10">
         <div className="mb-8 flex justify-between items-end">
