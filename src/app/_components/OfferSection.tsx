@@ -1,5 +1,5 @@
 'use client';
-import { ArrowRight, ShieldCheck, Flame, Salad, Wheat, Croissant, Cake, Globe } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Flame, Salad, Wheat, Croissant, Cake, Globe, Gift } from 'lucide-react';
 
 const OfferItem = ({ icon: Icon, title, price }: { icon: any; title: string; price: string }) => (
    <div className="flex justify-between items-center py-2.5 md:py-4 border-b border-[#EBE6DD] last:border-0">
@@ -30,14 +30,15 @@ export default function OfferSection() {
                     <OfferItem icon={Salad} title="Bóveda Comidas Rápidas Sanas" price="5,00" />
                     <OfferItem icon={Wheat} title="Bóveda Sin Gluten" price="5,00" />
                     <OfferItem icon={Croissant} title="Bóveda Panadería Sin Gluten" price="5,00" />
-                    <OfferItem icon={Cake} title="Bóveda Postres y Repostería SG" price="5,00" />
+                    <OfferItem icon={Cake} title="Bóveda Postres y Repostería" price="5,00" />
                     <OfferItem icon={Globe} title="Bóveda Cocina Mediterránea" price="5,00" />
+                    <OfferItem icon={Gift} title="Bonus Secretos x5" price="15,00" />
                  </div>
               </div>
 
               <div className="text-center relative">
                  <div className="mb-4">
-                    <span className="text-sm md:text-xl font-medium uppercase tracking-[0.2em] opacity-40 block mb-1 text-[#253725] line-through">Valor Real: $30,00 USD</span>
+                    <span className="text-sm md:text-xl font-medium uppercase tracking-[0.2em] opacity-40 block mb-1 text-[#253725] line-through">Valor Real: $45,00 USD</span>
                     <div className="relative inline-block">
                        <div className="text-8xl md:text-[9.5rem] font-sans font-bold text-[#253725] relative z-10 bg-gradient-to-br from-[#253725] via-[#74a074] to-[#253725] bg-clip-text text-transparent animate-shimmer bg-[length:200%_auto] tracking-tighter leading-[1] py-1 px-4 overflow-visible">
                           $10

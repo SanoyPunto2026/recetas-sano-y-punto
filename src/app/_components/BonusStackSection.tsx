@@ -68,7 +68,7 @@ export default function BonusStackSection() {
          <div className="absolute -top-10 -left-10 text-[15rem] font-black italic opacity-[0.02] select-none text-[#253725] leading-none pointer-events-none">REGALOS</div>
          
          <div className="max-w-[1000px] mx-auto px-6 relative z-10">
-            <SectionTitle subtitle="El Stack de Valor">Todo lo que recibes<br />además de las recetas</SectionTitle>
+            <SectionTitle>Todo lo que recibes<br />además de las recetas</SectionTitle>
 
             <div className="text-center mb-12">
                <div className="inline-block bg-[#345334]/10 text-[#345334] px-6 py-3 rounded-full text-sm md:text-base font-bold animate-pulse shadow-sm">
@@ -97,7 +97,7 @@ export default function BonusStackSection() {
                               {isUnlocked ? <bonus.icon size={20} /> : <Lock size={20} />}
                            </div>
                            <div className="flex-1">
-                              <h4 className={`text-base md:text-lg font-bold tracking-tight leading-tight ${
+                              <h4 className={`text-xl md:text-2xl font-bold tracking-tight leading-tight ${
                                  isUnlocked ? 'text-[#253725]' : 'text-[#253725]/60'
                               }`}>
                                  {isUnlocked ? bonus.title : `Bonus Secreto #${i + 1}`}
@@ -125,7 +125,7 @@ export default function BonusStackSection() {
                                        <span className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-[#D4A373] bg-[#D4A373]/10 px-3 py-1 rounded-full">Valor: {bonus.value}</span>
                                        <span className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-[#345334] bg-[#345334]/10 px-3 py-1 rounded-full">Gratis Hoy</span>
                                     </div>
-                                    <p className="text-[#654836] text-sm md:text-base leading-relaxed">{bonus.description}</p>
+                                    <p className="text-[#654836] text-base md:text-lg leading-relaxed">{bonus.description}</p>
                                  </div>
                               </motion.div>
                            )}
@@ -135,10 +135,6 @@ export default function BonusStackSection() {
                })}
             </div>
 
-            <div className="mt-20 text-center">
-               <p className="text-[#654836]/60 text-sm uppercase tracking-widest font-bold">Valor total de bonos: <span className="line-through">$15+ USD</span></p>
-               <p className="text-[#253725] text-3xl md:text-5xl font-black mt-3">Todo incluido por <span className="text-[#345334] bg-[#345334]/10 px-4 py-1 rounded-2xl">$10 USD</span> <span className="text-lg text-[#654836] italic">(pago único)</span></p>
-            </div>
          </div>
       </section>
    );

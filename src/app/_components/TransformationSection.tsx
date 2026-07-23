@@ -36,10 +36,22 @@ const BenefitCard = ({ icon: Icon, title, description }: { icon: any; title: str
 export default function TransformationSection() {
    return (
       <div className="max-w-[1000px] mx-auto px-6 text-center">
-         <SectionTitle subtitle="Presentamos la Bóveda de Sano y Punto">
-            <span className="block font-sans font-bold text-[#253725] text-4xl md:text-7xl leading-[1.1]">COCINA SALUDABLE</span>
-            <span className="block font-serif italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 overflow-visible text-3xl md:text-6xl leading-[1.1]">sin complicaciones</span>
-         </SectionTitle>
+         <div className="mb-12 md:mb-16 text-center">
+            <motion.div
+               initial={{ opacity: 0, y: 10 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: true }}
+               className="inline-block mb-6 px-4 py-2 border border-[#D4A373]/30 bg-[#D4A373]/10 rounded-full"
+            >
+               <span className="text-sm md:text-lg uppercase font-black tracking-[0.2em] text-[#D4A373]">
+                  Presentamos la Bóveda de Recetas
+               </span>
+            </motion.div>
+            <h2 className="text-4xl md:text-6xl font-sans font-bold tracking-tight leading-[1.1] text-[#253725]">
+               <span className="block font-sans font-bold text-[#253725] text-5xl md:text-8xl leading-[1.1]">COCINA SALUDABLE</span>
+               <span className="block font-serif italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 overflow-visible text-4xl md:text-7xl leading-[1.1]">sin complicaciones</span>
+            </h2>
+         </div>
 
          <p className="text-xl md:text-2xl text-[#654836] mb-12 max-w-2xl mx-auto leading-snug">No es un ebook más como los que ves en internet. Es una <strong className="text-[#253725]">bóveda en constante crecimiento</strong>. Accede desde cualquier lugar, aplica filtros inteligentes y encuentra la receta perfecta en segundos.</p>
 

@@ -11,8 +11,8 @@ export default function HeroSection() {
                <span className="block text-[32px] sm:text-[40px] md:text-[55px] lg:text-[65px] text-[#253725] font-sans font-bold tracking-tight">
                   ¿Cansado de pensar qué cocinar todos los días?
                </span>
-               <span className="block text-[28px] sm:text-[35px] md:text-[45px] lg:text-[55px] italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 mt-2">
-                  Descubre el atajo para comer delicioso sin estrés.
+               <span className="block text-[22px] sm:text-[28px] md:text-[38px] lg:text-[45px] italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 mt-2">
+                  Descubre el atajo para comer delicioso <span className="underline decoration-[#D4A373] underline-offset-4">sin estrés</span>.
                </span>
             </h1>
 
@@ -32,7 +32,7 @@ export default function HeroSection() {
 
             {/* 3. Texto corto para aterrizar */}
             <p className="text-lg md:text-2xl text-[#654836] max-w-2xl mx-auto mb-10 font-medium leading-relaxed">
-               Accede de por vida a la bóveda definitiva con cientos de recetas saludables en airfryer, sin gluten y más para comer sano sin estrés y ahorrar horas al mes.
+               Accede a la bóveda definitiva. Cientos de recetas saludables en airfryer, sin gluten y más. Come sano y ahorra horas al mes.
             </p>
 
             {/* 4. Botón CTA Sentimental */}
