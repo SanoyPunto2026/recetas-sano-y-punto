@@ -57,7 +57,7 @@ export default function Login() {
                 priority
               />
             </div>
-            <p className="text-[#345334] font-semibold text-lg tracking-widest uppercase text-xs opacity-90 mt-2">
+            <p className="block text-[26px] sm:text-[32px] md:text-[36px] italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 mt-4 text-center">
               Bóveda de Recetas
             </p>
           </div>

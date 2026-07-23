@@ -11,7 +11,7 @@ export default function StickyHeader({ hideButton = false }: { hideButton?: bool
                   <Leaf size={24} className="text-[#4A6741]" />
                </div>
                <div className="flex flex-col leading-none">
-                  <div className="font-sans text-[22px] md:text-3xl font-black tracking-tighter text-[#1A1C1A] flex items-center gap-1">
+                  <div className="font-[var(--font-montserrat)] text-[22px] md:text-3xl font-black tracking-tighter text-[#1A1C1A] flex items-center gap-1">
                      <span>Sano &</span>
                      <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-[#4A6741] to-[#8B7355]">Punto.</span>
                   </div>

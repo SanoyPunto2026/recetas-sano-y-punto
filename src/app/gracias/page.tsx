@@ -7,7 +7,7 @@ export default function GraciasPage() {
       <div className="min-h-screen bg-[#FDFCF7] flex flex-col">
          <StickyHeader hideButton={true} />
          
-         <main className="flex-1 flex items-center justify-center py-32 px-6">
+         <main className="flex-1 flex items-start justify-center pt-16 md:pt-24 pb-32 px-6">
             <div className="max-w-[600px] w-full bg-white rounded-[40px] p-8 md:p-12 text-center shadow-xl border border-[#EBE6DD]">
                <div className="w-20 h-20 bg-[#345334]/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <CheckCircle2 size={40} className="text-[#345334]" />

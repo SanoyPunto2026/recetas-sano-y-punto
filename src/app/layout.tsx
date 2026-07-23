@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Outfit, DM_Serif_Display } from "next/font/google";
+import { Outfit, DM_Serif_Display, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -13,6 +13,12 @@ const dmSerif = DM_Serif_Display({
   subsets: ["latin"],
   weight: "400",
   style: ["normal", "italic"],
+});
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${outfit.variable} ${dmSerif.variable} h-full antialiased`}
+      className={`${outfit.variable} ${dmSerif.variable} ${montserrat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-[var(--font-outfit)]">{children}</body>
     </html>
