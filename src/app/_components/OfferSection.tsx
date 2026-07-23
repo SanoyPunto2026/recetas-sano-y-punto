@@ -1,5 +1,6 @@
 'use client';
 import { ArrowRight, ShieldCheck, Flame, Salad, Wheat, Croissant, Cake, Globe, Gift } from 'lucide-react';
+import Image from 'next/image';
 
 const OfferItem = ({ icon: Icon, title, price }: { icon: any; title: string; price: string }) => (
    <div className="flex justify-between items-center py-2.5 md:py-4 border-b border-[#EBE6DD] last:border-0">
@@ -20,9 +21,22 @@ export default function OfferSection() {
          <div className="max-w-[800px] mx-auto px-4 md:px-6 relative z-10 w-full">
             <div className="bg-white rounded-[40px] md:rounded-[60px] p-6 md:p-16 shadow-2xl relative">
 
-              <div className="text-center mb-4 md:mb-6 pt-4">
-                 <h2 className="text-3xl md:text-5xl text-[#253725] leading-tight font-sans font-semibold">Todo lo que recibirás hoy</h2>
-              </div>
+               <div className="flex justify-center mb-6 md:mb-8 pt-4">
+                  <div className="relative w-[75%] sm:w-[65%] md:w-[60%] max-w-[340px] aspect-[1.25] hover:scale-[1.03] transition-transform duration-500 filter drop-shadow-[0_25px_50px_rgba(37,55,37,0.2)]">
+                     <Image 
+                        src="/boveda_cover.png" 
+                        alt="Bóveda Sano & Punto" 
+                        fill
+                        sizes="(max-width: 768px) 75vw, 340px"
+                        className="object-contain"
+                        priority
+                     />
+                  </div>
+               </div>
+
+               <div className="text-center mb-4 md:mb-6">
+                  <h2 className="text-3xl md:text-5xl text-[#253725] leading-tight font-sans font-semibold">Todo lo que recibirás hoy</h2>
+               </div>
 
               <div className="bg-[#F9F7F2] rounded-3xl p-4 md:p-6 border border-[#EBE6DD] mb-4">
                  <div className="flex flex-col">
