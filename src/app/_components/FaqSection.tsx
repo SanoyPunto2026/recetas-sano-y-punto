@@ -33,7 +33,7 @@ export default function FaqSection() {
    ];
 
    return (
-      <section className="py-[90px] md:py-[100px] bg-[#F9F7F2]">
+      <section className="py-[60px] md:py-[70px] bg-[#F9F7F2]">
          <div className="max-w-3xl mx-auto px-6">
             <SectionTitle subtitle="Dudas Frecuentes">Preguntas Frecuentes</SectionTitle>
             <div className="space-y-4">

@@ -15,7 +15,7 @@ const OfferItem = ({ icon: Icon, title, price }: { icon: any; title: string; pri
 
 export default function OfferSection() {
    return (
-      <section id="oferta" className="py-6 md:py-[100px] bg-[#345334] relative overflow-hidden min-h-[932px] flex flex-col justify-center">
+      <section id="oferta" className="py-[60px] md:py-[70px] bg-[#345334] relative overflow-hidden min-h-[932px] flex flex-col justify-center">
          <div className="absolute -top-20 -left-20 text-[25rem] font-black italic opacity-[0.03] select-none text-white leading-none pointer-events-none">$10</div>
          <div className="max-w-[800px] mx-auto px-4 md:px-6 relative z-10 w-full">
             <div className="bg-white rounded-[40px] md:rounded-[60px] p-6 md:p-16 shadow-2xl relative">

@@ -8,6 +8,7 @@ const TransformationSection = dynamic(() => import('./_components/Transformation
 const VaultsSection = dynamic(() => import('./_components/VaultsSection'), { ssr: true });
 const BonusStackSection = dynamic(() => import('./_components/BonusStackSection'), { ssr: true });
 const OfferSection = dynamic(() => import('./_components/OfferSection'), { ssr: true });
+const RecipeCarouselSection = dynamic(() => import('./_components/RecipeCarouselSection'), { ssr: true });
 const FaqSection = dynamic(() => import('./_components/FaqSection'), { ssr: true });
 const Footer = dynamic(() => import('./_components/Footer'), { ssr: true });
 
@@ -21,9 +22,8 @@ export default function Home() {
       <HeroSection />
 
       {/* 3. BLOQUE DE DOLOR (PAS Framework) */}
-      <section className="bg-[linear-gradient(to_bottom,#ebe2d3_0%,#FDFCF7_15%,#FDFCF7_85%,#ebe2d3_100%)] py-[100px]">
+      <section className="bg-[linear-gradient(to_bottom,#ebe2d3_0%,#FDFCF7_15%,#FDFCF7_85%,#ebe2d3_100%)] py-[50px] md:py-[70px]">
         <PainSection />
-        <div className="py-8"></div>
         <TransformationSection />
       </section>
 
@@ -35,6 +35,9 @@ export default function Home() {
 
       {/* 6. OFERTA IRRESISTIBLE */}
       <OfferSection />
+
+      {/* 6.5 CARRUSEL DE RECETAS */}
+      <RecipeCarouselSection />
 
       {/* 7. FAQ */}
       <FaqSection />

@@ -68,7 +68,7 @@ export default function VaultsSection() {
    const marqueeItems = [...vaults, ...vaults];
 
    return (
-      <div className="py-[90px] md:py-[100px] overflow-hidden">
+      <div className="py-[60px] md:py-[70px] overflow-hidden">
          <div className="max-w-[1240px] mx-auto px-6 text-center">
             <SectionTitle subtitle="Las 6 Bóvedas">
                <span className="block font-sans font-bold text-[#253725] text-4xl md:text-7xl leading-[1.1]">¿QUÉ ENCONTRARÁS</span>

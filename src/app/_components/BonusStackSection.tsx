@@ -64,7 +64,7 @@ export default function BonusStackSection() {
    };
 
    return (
-      <section className="py-[90px] md:py-[100px] bg-[#FDFBF7] relative overflow-hidden">
+      <section className="py-[60px] md:py-[70px] bg-[#FDFBF7] relative overflow-hidden">
          <div className="absolute -top-10 -left-10 text-[15rem] font-black italic opacity-[0.02] select-none text-[#253725] leading-none pointer-events-none">REGALOS</div>
          
          <div className="max-w-[1000px] mx-auto px-6 relative z-10">

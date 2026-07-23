@@ -3,15 +3,15 @@ import { ArrowRight, Play, ShieldCheck, Lock, Star } from 'lucide-react';
 
 export default function HeroSection() {
    return (
-      <section className="pt-[40px] md:pt-[60px] pb-[60px] md:pb-[100px] px-6 text-center">
+      <section className="pt-[40px] md:pt-[60px] pb-[40px] md:pb-[60px] px-6 text-center">
          <div className="max-w-[900px] mx-auto">
             
             {/* 1. Título (Problema + Oferta + Curiosidad) */}
             <h1 className="mb-8 md:mb-10 leading-[1.15] md:leading-tight">
-               <span className="block text-[32px] sm:text-[40px] md:text-[55px] lg:text-[65px] text-[#253725] font-sans font-bold tracking-tight">
+               <span className="block text-[40px] sm:text-[45px] md:text-[60px] lg:text-[75px] text-[#253725] font-sans font-bold tracking-tight">
                   ¿Cansado de pensar qué cocinar todos los días?
                </span>
-               <span className="block text-[22px] sm:text-[28px] md:text-[38px] lg:text-[45px] italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 mt-2">
+               <span className="block text-[22px] sm:text-[28px] md:text-[35px] lg:text-[42px] italic font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#345334] via-[#74a074] to-[#345334] bg-[length:200%_auto] animate-shimmer pb-2 mt-2">
                   Descubre el atajo para comer delicioso <span className="underline decoration-[#D4A373] underline-offset-4">sin estrés</span>.
                </span>
             </h1>
