@@ -8,6 +8,14 @@ export default function DownsellPage() {
       <div className="min-h-screen bg-[#FDFCF7] flex flex-col">
          <StickyHeader hideButton={true} />
 
+         {/* Alerta importante */}
+         <div className="w-[95%] max-w-2xl mx-auto mt-4 bg-[#253725] text-white px-5 py-3.5 rounded-2xl flex items-center gap-3 shadow-lg border border-[#74a074]/30 z-50 relative">
+            <AlertCircle size={20} className="shrink-0 text-[#D4A373] animate-pulse" />
+            <p className="text-[11px] md:text-[13px] font-bold leading-tight tracking-tight">
+               <span className="text-[#D4A373] font-black uppercase">IMPORTANTE</span> — No te salgas de esta pestaña. Dale clic al botón de SÍ o NO para continuar y poder entrar a la Bóveda.
+            </p>
+         </div>
+
          <main className="flex-1 flex items-start justify-center p-4 md:p-12 overflow-x-hidden relative pt-[20px] md:pt-[40px]">
             {/* Background Subtle Elements */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
