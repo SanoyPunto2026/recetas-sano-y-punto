@@ -32,8 +32,8 @@ export default function HeroSection() {
 
             {/* 3. Texto corto para aterrizar */}
             <p className="text-lg md:text-2xl text-[#654836] max-w-2xl mx-auto mb-10 font-medium leading-relaxed">
-               Accede a nuestra bóveda secreta con cientos de recetas probadas. Airfryer, sin gluten, mediterránea y mucho más. 
-               <span className="block text-[#253725] font-bold mt-2">Tu cocina está a punto de transformarse.</span>
+               Accede de por vida a la bóveda definitiva. Cientos de recetas saludables en airfryer, sin gluten y más. 
+               <span className="block text-[#253725] font-bold mt-2">Come sano sin estrés, ahorra horas al mes y transforma tu cocina.</span>
             </p>
 
             {/* 4. Botón CTA Sentimental */}
