@@ -3,6 +3,7 @@
 import { use, useEffect, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
+import DashboardHeader from "../_components/DashboardHeader";
 
 export default function CategoryVault({ params }: { params: Promise<{ category: string }> }) {
   const resolvedParams = use(params);
@@ -46,16 +47,6 @@ export default function CategoryVault({ params }: { params: Promise<{ category: 
     fetchRecipes();
   }, [category]);
 
-  const BrandLogo = () => (
-    <svg viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0">
-      <circle cx="512" cy="512" r="512" fill="#3F683F"/>
-      <g transform="translate(256, 256) scale(21.33)">
-        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M7 22c0-3 1-5 4-8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-      </g>
-    </svg>
-  );
-
   const normalize = (str: string) => str ? str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() : "";
 
   const filteredRecipes = recipes.filter(recipe => {
@@ -92,24 +83,15 @@ export default function CategoryVault({ params }: { params: Promise<{ category: 
   );
 
   return (
-    <div className="min-h-screen pb-20 bg-[var(--color-sand-50)]">
-      <header className="glass sticky top-0 z-20 border-b border-white/40 shadow-sm bg-white/70 backdrop-blur-md">
-        <div className="max-w-5xl mx-auto px-4 py-3 sm:py-4 flex justify-between items-center">
-          <div className="flex items-center gap-3">
-            <Link href="/dashboard" className="text-[var(--color-sage-400)] hover:text-[var(--color-sage-800)] mr-2 font-black text-xl transition-colors">
-              ←
-            </Link>
-            <BrandLogo />
-            <h1 className="text-xl sm:text-2xl font-black text-[var(--color-sage-950)] mt-1">Sano y Punto</h1>
-          </div>
-          
-          <div className="flex items-center gap-4">
-            {/* Espacio vacío para mantener el layout limpio */}
-          </div>
-        </div>
-      </header>
+    <div className="min-h-screen pb-20 relative bg-[#FDFCF7]">
+      {/* Elementos decorativos orgánicos */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-40">
+        <div className="absolute top-[-10%] left-[-10%] w-[60%] h-[60%] bg-gradient-to-br from-[#c7d9c7] to-[#9ebf9e] rounded-full blur-[120px] mix-blend-multiply" />
+        <div className="absolute bottom-[-20%] right-[-10%] w-[70%] h-[70%] bg-gradient-to-tl from-[#dfccb3] to-[#ceaf8e] rounded-full blur-[140px] mix-blend-multiply" />
+      </div>
 
-      <main className="max-w-5xl mx-auto px-4 py-8 md:py-12">
+      <DashboardHeader backUrl="/dashboard" />
+      <main className="max-w-5xl mx-auto px-4 relative z-10 py-8 md:py-12">
         <div className="mb-10">
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end gap-6">
             <div className="flex justify-between items-end w-full lg:w-auto">

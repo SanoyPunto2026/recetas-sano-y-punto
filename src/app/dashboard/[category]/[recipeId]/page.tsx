@@ -4,6 +4,7 @@ import { use, useEffect, useState } from "react";
 import Link from "next/link";
 import Script from "next/script";
 import { supabase } from "@/lib/supabase";
+import DashboardHeader from "../../_components/DashboardHeader";
 import FlashcardModal from "@/components/FlashcardModal";
 import { AnimatePresence } from "framer-motion";
 
@@ -205,18 +206,6 @@ export default function RecipeDetail({ params }: { params: Promise<{ category: s
     setIsDownloading(false);
   };
 
-  const BrandLogo = () => (
-    <div className="w-7 h-7 sm:w-9 sm:h-9 flex-shrink-0">
-      <svg width="100%" height="100%" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="512" cy="512" r="512" fill="#3F683F"/>
-        <g transform="translate(256, 256) scale(21.33)">
-          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M7 22c0-3 1-5 4-8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        </g>
-      </svg>
-    </div>
-  );
-
   if (loading) {
     return (
       <div className="min-h-screen bg-[var(--color-sand-50)] flex flex-col items-center justify-center">
@@ -352,28 +341,20 @@ export default function RecipeDetail({ params }: { params: Promise<{ category: s
     <>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" strategy="beforeInteractive" />
 
-      <div className="min-h-screen pb-24 bg-[var(--color-sand-50)] overflow-x-hidden">
-        <header className="glass sticky top-0 z-50 border-b border-white/40 shadow-sm bg-white/70 backdrop-blur-md">
-          <div className="max-w-4xl mx-auto px-4 py-3 sm:py-4 flex justify-between items-center">
-            <div className="flex items-center overflow-hidden">
-              <Link href={`/dashboard/${category}`} className="text-[var(--color-sage-400)] hover:text-[var(--color-sage-800)] mr-3 sm:mr-4 font-black text-xl sm:text-2xl transition-all hover:-translate-x-1 flex-shrink-0">
-                ←
-              </Link>
-              <div className="flex items-center gap-2 sm:gap-3 overflow-hidden">
-                <BrandLogo />
-                <h1 className="text-lg sm:text-xl font-black text-[var(--color-sage-900)] truncate mt-1">{recipe.nombre_receta}</h1>
-              </div>
-            </div>
-            
-            <div className="flex flex-shrink-0 justify-end">
-              <button className="text-xl sm:text-2xl glass-button p-2 px-3 rounded-xl hover:scale-110 transition shadow-sm border border-white flex justify-center items-center">
-                 🤍
-              </button>
-            </div>
-          </div>
-        </header>
+      <div className="min-h-screen pb-24 relative bg-[#FDFCF7] overflow-x-hidden">
+        {/* Elementos decorativos orgánicos */}
+        <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-40">
+          <div className="absolute top-[-10%] left-[-10%] w-[60%] h-[60%] bg-gradient-to-br from-[#c7d9c7] to-[#9ebf9e] rounded-full blur-[120px] mix-blend-multiply" />
+          <div className="absolute bottom-[-20%] right-[-10%] w-[70%] h-[70%] bg-gradient-to-tl from-[#dfccb3] to-[#ceaf8e] rounded-full blur-[140px] mix-blend-multiply" />
+        </div>
 
-        <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
+        <DashboardHeader backUrl={`/dashboard/${category}`} />
+
+        <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 relative z-10 sm:py-10">
+          <div className="mb-6 lg:mb-10 text-center sm:text-left">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[var(--color-sage-950)] mt-2 uppercase tracking-tight">{recipe.nombre_receta}</h1>
+            <div className="h-1 w-20 bg-[var(--color-sage-500)] mt-4 mx-auto sm:mx-0"></div>
+          </div>
           
           <div className="w-full h-64 sm:h-80 lg:h-96 bg-gradient-to-br from-[var(--color-sage-200)] to-[var(--color-sand-200)] rounded-3xl sm:rounded-[2.5rem] flex items-center justify-center text-8xl sm:text-9xl relative overflow-hidden shadow-md mb-8">
             <span className="relative z-10 hover:scale-110 transition-transform duration-500 cursor-default drop-shadow-xl">{recipe.emoji_representativo || "🍲"}</span>
