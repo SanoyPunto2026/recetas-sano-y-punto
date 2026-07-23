@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import { supabase } from "@/lib/supabase";
 
 import DashboardHeader from "./_components/DashboardHeader";
 
@@ -16,6 +17,24 @@ export default function Dashboard() {
     "fridge-filter": false, 
     "grocery-list": false   
   });
+
+  const [airfryerImage, setAirfryerImage] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function fetchLatestAirfryerImage() {
+      const { data, error } = await supabase
+        .from("banco_recetas")
+        .select("imagen_url")
+        .eq("categoria", "airfryer")
+        .order("creado_en", { ascending: false })
+        .limit(1);
+      
+      if (!error && data && data.length > 0 && data[0].imagen_url) {
+        setAirfryerImage(data[0].imagen_url);
+      }
+    }
+    fetchLatestAirfryerImage();
+  }, []);
 
   const categories = [
     { 
@@ -83,24 +102,41 @@ export default function Dashboard() {
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {categories.map((cat) => {
             const isUnlocked = userPermissions[cat.id as keyof typeof userPermissions];
+            const hasBgImage = cat.id === "airfryer" && airfryerImage;
             const cardContent = (
-              <div className={`relative h-full flex flex-col items-center justify-center text-center ${cat.color} rounded-3xl md:rounded-[2.5rem] p-6 md:p-10 transition-all duration-300 ${isUnlocked ? 'hover:scale-[1.05] hover:-translate-y-2 hover:shadow-2xl' : 'opacity-60 grayscale-[50%]'} border border-[#EBE6DD]/60 shadow-lg gap-4 md:gap-6 overflow-hidden`}>
-                {isUnlocked && (
+              <div className={`relative h-full flex flex-col items-center justify-center text-center ${hasBgImage ? 'bg-zinc-950' : cat.color} rounded-3xl md:rounded-[2.5rem] p-6 md:p-10 transition-all duration-300 ${isUnlocked ? 'hover:scale-[1.05] hover:-translate-y-2 hover:shadow-2xl' : 'opacity-60 grayscale-[50%]'} border border-[#EBE6DD]/60 shadow-lg gap-4 md:gap-6 overflow-hidden`}>
+                {hasBgImage ? (
                   <>
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-white/30 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none transition-transform duration-700 group-hover:scale-150"></div>
-                    <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/30 rounded-full blur-xl -ml-8 -mb-8 pointer-events-none transition-transform duration-700 group-hover:scale-150"></div>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img 
+                      src={airfryerImage} 
+                      alt={cat.name} 
+                      className="absolute inset-0 w-full h-full object-cover z-0 transition-transform duration-700 group-hover:scale-110" 
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/10 z-10" />
                   </>
+                ) : (
+                  isUnlocked && (
+                    <>
+                      <div className="absolute top-0 right-0 w-32 h-32 bg-white/30 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none transition-transform duration-700 group-hover:scale-150"></div>
+                      <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/30 rounded-full blur-xl -ml-8 -mb-8 pointer-events-none transition-transform duration-700 group-hover:scale-150"></div>
+                    </>
+                  )
                 )}
-                <div className={`relative z-10 flex items-center justify-center ${!isUnlocked ? 'opacity-50' : ''}`}>
-                   {cat.icon}
-                </div>
+                
+                {!hasBgImage && (
+                  <div className={`relative z-10 flex items-center justify-center ${!isUnlocked ? 'opacity-50' : ''}`}>
+                     {cat.icon}
+                  </div>
+                )}
+                
                 <div className="relative z-10 flex-grow flex flex-col justify-center">
-                  <h3 className={`text-lg sm:text-xl md:text-2xl font-bold ${cat.textColor} leading-tight drop-shadow-sm px-2`}>
+                  <h3 className={`text-lg sm:text-xl md:text-2xl font-bold ${hasBgImage ? 'text-white' : cat.textColor} leading-tight drop-shadow-sm px-2`}>
                     {cat.name}
                   </h3>
                 </div>
                 <div className="relative z-10 mt-auto">
-                  <span className={`inline-flex items-center gap-1 md:gap-2 text-[10px] md:text-sm font-bold uppercase tracking-widest ${cat.textColor} ${isUnlocked ? 'bg-white/80 group-hover:bg-white' : 'bg-gray-100'} px-5 md:px-6 py-2.5 md:py-3 rounded-full transition-colors w-max border ${isUnlocked ? 'border-white shadow-sm' : 'border-gray-200'}`}>
+                  <span className={`inline-flex items-center gap-1 md:gap-2 text-[10px] md:text-sm font-bold uppercase tracking-widest ${hasBgImage ? 'text-white bg-white/20 backdrop-blur-md border-white/30 group-hover:bg-white group-hover:text-black' : `${cat.textColor} ${isUnlocked ? 'bg-white/80 group-hover:bg-white' : 'bg-gray-100'} border ${isUnlocked ? 'border-white shadow-sm' : 'border-gray-200'}`} px-5 md:px-6 py-2.5 md:py-3 rounded-full transition-all w-max`}>
                     {isUnlocked ? (
                       <>Explorar <span className="hidden sm:inline">→</span></>
                     ) : (
