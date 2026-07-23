@@ -1,0 +1,2247 @@
+[
+  {
+    "id": "b5f222bb-ab68-4542-aa9c-655ae4078cd2",
+    "name": "Pollo al Pimentón con Patatas Estilo Bravas",
+    "ingredients": [
+      "Pechuga de pollo",
+      "Patatas",
+      "Aceite de oliva virgen extra",
+      "Pimentón de la Vera dulce",
+      "Pimentón picante o cayena",
+      "Ajo picado",
+      "Salsa de tomate natural triturado",
+      "Sal marina",
+      "Pimienta negra"
+    ],
+    "lastStep": "Sirve la mezcla de pollo y patatas en dos platos hondos de barro o cerámica. Baña todo ligeramente con la salsa brava saludable por encima y sirve de inmediato.",
+    "category": "airfryer",
+    "emoji": "🍗"
+  },
+  {
+    "id": "403abae5-c825-40ee-88ee-3550da4cad2f",
+    "name": "Salmón a la Mediterránea con Espárragos",
+    "ingredients": [
+      "Lomo de salmón fresco sin espinas",
+      "Espárragos trigueros",
+      "Aceite de oliva virgen extra",
+      "Limón (jugo y ralladura)",
+      "Ajo picado",
+      "Hierbas provenzales o tomillo",
+      "Sal marina",
+      "Pimienta negra"
+    ],
+    "lastStep": "Retira cuidadosamente con unas pinzas y sirve en un plato llano. Agrega un poco de ralladura fina de limón por encima del salmón para realzar el aroma mediterráneo y sirve de inmediato.",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "02c282f6-3b28-4937-9b59-a0165b9889e3",
+    "name": "Lomo de Cerdo con Pimientos de Padrón en Airfryer",
+    "ingredients": [
+      "Cinta de lomo de cerdo (2 filetes gruesos)",
+      "Pimientos de Padrón",
+      "Aceite de oliva virgen extra",
+      "Ajo en polvo",
+      "Pimentón dulce",
+      "Sal en escamas o sal gruesa"
+    ],
+    "lastStep": "Saca la carne y los pimientos y colócalos en un plato. Deja reposar la carne 1 minuto. Finalmente, espolvorea generosamente la sal en escamas por encima de los pimientos calientes (y un toque a la carne) justo antes de servir.",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "e056be56-7017-476d-bda9-145065cb5a83",
+    "name": "Brochetas de Pavo y Verduras al Tomillo en Airfryer",
+    "ingredients": [
+      "Pechuga de pavo",
+      "Pimiento rojo",
+      "Cebolla morada pequeña",
+      "Aceite de oliva virgen extra",
+      "Tomillo seco",
+      "Ajo en polvo",
+      "Sal marina",
+      "Pimienta negra"
+    ],
+    "lastStep": "Saca las brochetas con cuidado de no quemarte y colócalas en un plato llano. ¡Listas para una cena ligera!",
+    "category": "airfryer",
+    "emoji": "🍢"
+  },
+  {
+    "id": "0cd4a2b2-f72d-4697-95d0-8abe985b7eeb",
+    "name": "Albóndigas Caseras de Ternera con Salsa Jardinera en Airfryer",
+    "ingredients": [
+      "Carne picada de ternera magra",
+      "Huevo pequeño (solo la clara)",
+      "Harina de avena",
+      "Ajo picado",
+      "Perejil fresco picado",
+      "Salsa de tomate triturado natural",
+      "Guisantes (arvejas) tiernos",
+      "Aceite de oliva virgen extra",
+      "Sal marina y pimienta"
+    ],
+    "lastStep": "Usa guantes para sacar el recipiente. Sirve las albóndigas bien calientes en un plato hondo con abundante salsa.",
+    "category": "airfryer",
+    "emoji": "🧆"
+  },
+  {
+    "id": "f027d6bd-3532-4295-af52-f7dbc8aaae1e",
+    "name": "Rollo de Ternera Relleno a la Andaluza en Airfryer",
+    "ingredients": [
+      "Filete de ternera muy fino (tipo escalope grande)",
+      "Jamón Ibérico en lonchas finas",
+      "Pimientos del piquillo asados",
+      "Clara de huevo",
+      "Almendra molida o harina de almendra",
+      "Perejil fresco picado",
+      "Aceite de oliva virgen extra",
+      "Sal marina y pimienta negra"
+    ],
+    "lastStep": "Saca el rollo y déjalo reposar 3 minutos sobre una tabla para que los jugos se asienten. Con unas tijeras, corta y retira todo el hilo de cocina con cuidado de no romper la costra. Córtalo en medallones limpios y sirve.",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "144164e4-f598-43d1-a604-603bbd3bfa55",
+    "name": "Pastel de Tortilla Ligero en Capas al Airfryer",
+    "ingredients": [
+      "Patata nueva",
+      "Cebolla dulce",
+      "Huevos camperos",
+      "Jamón ibérico magro",
+      "Aceite de oliva virgen extra",
+      "Queso semicurado rallado",
+      "Sal y pimienta negra"
+    ],
+    "lastStep": "Introduce el molde en la Airfryer a 160°C durante 5 minutos. Desmolda con cuidado y sirve caliente.",
+    "category": "airfryer",
+    "emoji": "🥔"
+  },
+  {
+    "id": "efa7aa83-b268-4acf-a6d2-e6e61781bfbf",
+    "name": "Pinchos Morunos de Pollo Express en Airfryer",
+    "ingredients": [
+      "Pechuga de pollo limpia",
+      "Especias para pincho moruno (comino, pimentón, cúrcuma)",
+      "Aceite de oliva virgen extra",
+      "Sal marina"
+    ],
+    "lastStep": "Saca los pinchos de la cesta con cuidado y sírvelos inmediatamente. Opcionalmente, puedes acompañarlos con una ensalada fresca o verduras asadas.",
+    "category": "airfryer",
+    "emoji": "🍢"
+  },
+  {
+    "id": "e6ec0ffe-31bb-4ba2-8f79-27bfd45f47bc",
+    "name": "Bacalao Confitado sobre Lecho de Pimientos en Airfryer",
+    "ingredients": [
+      "Lomo de bacalao desalado",
+      "Pimiento rojo",
+      "Cebolla dulce",
+      "Ajo",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta",
+      "Perejil fresco picado"
+    ],
+    "lastStep": "Saca el pescado con cuidado usando una espátula. Sirve las verduras de base, el bacalao encima y decora con el perejil fresco.",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "228c97bf-1408-440b-a1f4-2bf25fe62de2",
+    "name": "San Jacobo Saludable de Pollo en Airfryer",
+    "ingredients": [
+      "Pechuga de pollo mediana",
+      "Jamón serrano magro",
+      "Queso tierno bajo en grasa",
+      "Huevo entero",
+      "Pan rallado integral",
+      "Aceite de oliva virgen extra",
+      "Ajo en polvo y orégano",
+      "Sal y pimienta"
+    ],
+    "lastStep": "Saca el San Jacobo de la Airfryer. ¡Muy importante! Retira los palillos de madera antes de servirlo caliente en un plato llano.",
+    "category": "airfryer",
+    "emoji": "🥪"
+  },
+  {
+    "id": "878c2abe-0ef3-415b-a40e-e22ff346f1a3",
+    "name": "Champiñones Rellenos de Picadillo Ibérico en Airfryer",
+    "ingredients": [
+      "Champiñones grandes enteros",
+      "Taquitos de jamón ibérico",
+      "Ajo picado",
+      "Queso Manchego semicurado rallado",
+      "Aceite de oliva virgen extra",
+      "Perejil fresco picado",
+      "Pimienta negra recién molida"
+    ],
+    "lastStep": "Sube la temperatura a 200°C y cocina un minuto más para gratinar. Retira con pinzas y sirve calientes.",
+    "category": "airfryer",
+    "emoji": "🍄"
+  },
+  {
+    "id": "fbbcf903-58fa-4377-88b9-5edc128199c8",
+    "name": "Falsa Tortilla de Patatas Saludable en Airfryer",
+    "ingredients": [
+      "Patata mediana (aprox. 150g)",
+      "Cebolla blanca",
+      "Huevos grandes",
+      "Aceite de oliva virgen extra",
+      "Sal marina"
+    ],
+    "lastStep": "Vierte la mezcla en el molde y mételo a la Airfryer a 170°C por 6-8 minutos (dependiendo si la quieres más cuajada o jugosa). Desmolda con cuidado y sirve.",
+    "category": "airfryer",
+    "emoji": "🥚"
+  },
+  {
+    "id": "312fece9-254a-4c04-ac34-cec4acd32352",
+    "name": "Pimientos Rellenos de Merluza y Gambas al Estilo Vasco en Airfryer",
+    "ingredients": [
+      "Pimientos del piquillo enteros asados",
+      "Lomo de merluza fresca (sin espinas)",
+      "Gambas crudas peladas",
+      "Huevo pequeño",
+      "Harina de avena fina",
+      "Leche evaporada o bebida de avena",
+      "Queso curado rallado",
+      "Nuez moscada, sal y pimienta blanca"
+    ],
+    "lastStep": "Saca la cazuelita con guantes y deja reposar 3 minutos (la farsa se asentará y será más firme). Sirve directamente del recipiente para no romper esta delicada preparación.",
+    "category": "airfryer",
+    "emoji": "🌶️"
+  },
+  {
+    "id": "feca288a-44fc-47ea-a8ba-ff6dac10abea",
+    "name": "Pollo a la Andaluza con Pimientos Asados al Airfryer",
+    "ingredients": [
+      "Pechuga de pollo sin piel",
+      "Pimiento rojo",
+      "Pimiento verde",
+      "Aceite de oliva virgen extra",
+      "Pimentón dulce",
+      "Orégano seco",
+      "Limón (su jugo)",
+      "Sal y pimienta negra al gusto"
+    ],
+    "lastStep": "Cocina por 4 minutos más a la misma temperatura. Una vez suene el temporizador, deja reposar 1 minuto dentro de la máquina antes de servir caliente.",
+    "category": "airfryer",
+    "emoji": "🍗"
+  },
+  {
+    "id": "2c153e2f-c4ff-4f67-8349-fe23e39659bb",
+    "name": "Huevos Rotos Fit con Jamón Ibérico en Airfryer",
+    "ingredients": [
+      "Patata pequeña (aprox 120g)",
+      "Huevos medianos",
+      "Jamón Ibérico en lonchas",
+      "Aceite de oliva virgen extra",
+      "Sal marina",
+      "Pimentón dulce"
+    ],
+    "lastStep": "Saca el recipiente, coloca inmediatamente el jamón ibérico por encima para que sude con el calor residual, y sírvelo como un desayuno contundente y tradicional.",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "1149410a-f867-4f2f-9099-9ab07d37c87c",
+    "name": "Tomates Rellenos de Huevo y Pavo al Estilo Español en Airfryer",
+    "ingredients": [
+      "Tomates de rama grandes",
+      "Huevos medianos",
+      "Pavo braseado en taquitos",
+      "Pan integral de espelta",
+      "Aceite de oliva virgen extra",
+      "Sal marina",
+      "Orégano o albahaca seca"
+    ],
+    "lastStep": "Saca los tomates con espátula. Pon la tapa ligeramente apoyada a un lado y acompaña el plato con la rebanada de pan integral tostado para mojar en la yema.",
+    "category": "airfryer",
+    "emoji": "🍅"
+  },
+  {
+    "id": "7a79d6ed-7544-46b1-817f-e1ed2b82d783",
+    "name": "Nidos Crujientes de Patata y Huevo con Pavo en Airfryer",
+    "ingredients": [
+      "Patata grande (aprox 150g)",
+      "Huevos pequeños",
+      "Pavo natural en lonchas",
+      "Aceite de oliva virgen extra",
+      "Sal marina y pimienta",
+      "Cebollino fresco picado"
+    ],
+    "lastStep": "Retira los moldes, pasa un cuchillito por el borde para desmoldar fácilmente y sirve los nidos decorados con el cebollino fresco picado.",
+    "category": "airfryer",
+    "emoji": "🥚"
+  },
+  {
+    "id": "a89e83b2-3715-4492-8ad5-0fa9a0700c29",
+    "name": "Soufflé de Tortilla Española con Corazón Líquido en Airfryer",
+    "ingredients": [
+      "Patata mediana (aprox 150g)",
+      "Cebolla blanca pequeña",
+      "Huevos grandes (separados yemas y claras)",
+      "Aceite de oliva virgen extra",
+      "Sal marina y pimienta negra",
+      "Nuez moscada (opcional)"
+    ],
+    "lastStep": "Saca los moldes con guantes y sírvelos en la mesa al instante (los soufflés se desinflan rápido). Al meter la cuchara, descubrirás el sabor de la tortilla de patata con una textura aireada y un corazón tierno casi líquido.",
+    "category": "airfryer",
+    "emoji": "🥚"
+  },
+  {
+    "id": "6674aaa6-9985-4aa9-89ef-efd83230214f",
+    "name": "Pan Tumaca Caliente con Huevo y Jamón en Airfryer",
+    "ingredients": [
+      "Pan de hogaza o rústico grande",
+      "Tomate natural triturado",
+      "Huevo mediano",
+      "Jamón serrano en lonchas",
+      "Aceite de oliva virgen extra",
+      "Sal y orégano"
+    ],
+    "lastStep": "Saca la tostada caliente y coloca inmediatamente las lonchas de jamón serrano por encima. El calor residual hará que el jamón 'sude' un poco sin resecarse. ¡A disfrutar!",
+    "category": "airfryer",
+    "emoji": "🥖"
+  },
+  {
+    "id": "ee72c784-dbf8-4ff6-aa1c-bc3758b71e01",
+    "name": "Mini Frittatas de Espinaca y Queso de Cabra en Airfryer",
+    "ingredients": [
+      "Huevos grandes",
+      "Espinacas frescas (aprox 40g)",
+      "Cebolla dulce",
+      "Queso de cabra en rulo",
+      "Leche o bebida vegetal sin azúcar",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y ajo en polvo"
+    ],
+    "lastStep": "Saca los moldes de la Airfryer. Deja que se templen un minuto, desmolda volcándolos suavemente sobre un plato y sirve de inmediato este desayuno de campeones.",
+    "category": "airfryer",
+    "emoji": "🧁"
+  },
+  {
+    "id": "265ea4ae-e5b1-43c2-96be-11e6bccdb763",
+    "name": "Portobello Relleno de Huevo y Pavo en Airfryer",
+    "ingredients": [
+      "Seta Portobello grande",
+      "Huevo pequeño",
+      "Pavo braseado en taquitos",
+      "Queso mozzarella rallado",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta negra"
+    ],
+    "lastStep": "En el último minuto de cocción, abre la Airfryer, espolvorea el queso rallado por encima y deja que se funda. Saca con cuidado usando una espátula y sirve caliente.",
+    "category": "airfryer",
+    "emoji": "🍄"
+  },
+  {
+    "id": "83e3d978-9746-4e39-b4fa-bbb7e8677d2f",
+    "name": "Aguacate Relleno de Huevo y Salmón Ahumado en Airfryer",
+    "ingredients": [
+      "Aguacate maduro pero firme",
+      "Huevo pequeño",
+      "Salmón ahumado en tiras",
+      "Zumo de limón",
+      "Eneldo fresco o seco",
+      "Sal y pimienta negra",
+      "Pan de centeno tostado"
+    ],
+    "lastStep": "Saca el aguacate, coloca inmediatamente las tiras de salmón ahumado por encima y espolvorea el eneldo. Sírvelo junto a la rebanada de pan de centeno.",
+    "category": "airfryer",
+    "emoji": "🥑"
+  },
+  {
+    "id": "0e9606ab-885a-458b-a040-4f845878098d",
+    "name": "Mini Pizzas de Berenjena con Atún en Airfryer",
+    "ingredients": [
+      "Berenjena grande",
+      "Atún al natural escurrido",
+      "Tomate frito casero sin azúcar",
+      "Queso mozzarella rallado",
+      "Aceite de oliva virgen extra",
+      "Sal y orégano seco"
+    ],
+    "lastStep": "Vuelve a meter las mini pizzas a la Airfryer a 200°C por 2 o 3 minutos hasta que el queso esté dorado y fundido. Sirve caliente como una cena ligera y deliciosa.",
+    "category": "airfryer",
+    "emoji": "🍆"
+  },
+  {
+    "id": "e4e5666b-5ad7-4cbf-b20a-f80a38da7512",
+    "name": "Falso Wellington de Salmón y Espinacas en Masa Filo (Airfryer)",
+    "ingredients": [
+      "Lomo de salmón fresco sin piel ni espinas",
+      "Masa filo o brick",
+      "Espinacas frescas",
+      "Cebolla dulce pequeña",
+      "Queso crema de untar ligero",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta negra y eneldo"
+    ],
+    "lastStep": "Saca el Wellington y déjalo reposar 2 minutos sobre una rejilla para que los jugos se asienten. Córtalo por la mitad con un cuchillo de sierra para mostrar el interior perfecto y sirve.",
+    "category": "airfryer",
+    "emoji": "🥟"
+  },
+  {
+    "id": "ec3299ca-8509-475c-8d4c-b9f531d2e1d2",
+    "name": "Rollitos de Lenguado Rellenos de Gambas y Espárragos en Airfryer",
+    "ingredients": [
+      "Lenguado o gallo sin piel ni espinas",
+      "Espárragos trigueros finos",
+      "Gambas crudas peladas",
+      "Ajo picado",
+      "Aceite de oliva virgen extra",
+      "Zumo de limón",
+      "Sal, pimienta blanca y perejil"
+    ],
+    "lastStep": "Saca los rollitos con mucho cuidado usando una espátula. ¡Acuérdate de quitarles los palillos antes de servir! Acompáñalos con una ensalada verde o tomate aliñado.",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "ae4555cb-f91b-49bd-be0f-735a9b5f26ec",
+    "name": "Salmón al Ajillo con Espárragos y Tomates Cherry en Airfryer",
+    "ingredients": [
+      "Lomo de salmón fresco sin espinas",
+      "Espárragos verdes frescos",
+      "Tomates cherry",
+      "Ajo fresco",
+      "Aceite de oliva virgen extra",
+      "Limón",
+      "Sal y pimienta negra al gusto",
+      "Perejil fresco picado"
+    ],
+    "lastStep": "Saca con cuidado el salmón usando una espátula y sírvelo junto a las verduras. Espolvorea el resto del perejil fresco por encima para decorar.",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "314c9dad-7283-4078-a769-db8464e93ea9",
+    "name": "Salmón Express al Limón en Airfryer",
+    "ingredients": [
+      "Salmón fresco (aprox 150g)",
+      "Limón (en rodajas)",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta negra"
+    ],
+    "lastStep": "Saca el salmón con cuidado para no romperlo (estará muy tierno). Sírvelo caliente para una cena altísima en proteína y omega 3 en tiempo récord.",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "509d4e31-6048-4e25-a222-1cd44a7fd9fe",
+    "name": "Pechuga de Pollo Rellena Estilo Caprese en Airfryer",
+    "ingredients": [
+      "Pechuga de pollo entera (sin filetear)",
+      "Tomate de ensalada pequeño",
+      "Queso mozzarella fresco en rodajas",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta negra",
+      "Albahaca fresca"
+    ],
+    "lastStep": "Saca la pechuga cuidadosamente (retira los palillos si usaste). Coloca las hojas de albahaca fresca por encima y sirve caliente.",
+    "category": "airfryer",
+    "emoji": "🍅"
+  },
+  {
+    "id": "239d9351-a851-4388-8bd1-cb5215e39c0d",
+    "name": "Rollo de Pavo Relleno de Setas y Huevo de Codorniz en Airfryer",
+    "ingredients": [
+      "Pechuga de pavo grande y grueso (aprox 150g)",
+      "Huevos de codorniz",
+      "Setas variadas o champiñones",
+      "Cebolla muy picada",
+      "Jamón ibérico o serrano",
+      "Almendra molida o pan rallado integral",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y tomillo fresco"
+    ],
+    "lastStep": "Sácalo y déjalo reposar 3 minutos. Con unas tijeras, corta y retira todo el hilo. Por último, córtalo en rodajas de 2 cm; al hacerlo, se verá el precioso corte del huevo de codorniz en el centro.",
+    "category": "airfryer",
+    "emoji": "🦃"
+  },
+  {
+    "id": "d8a7c21b-8dbf-45f6-b426-585b367624d4",
+    "name": "Muslos de Pollo al Ajillo con Patatas Doradas en Airfryer",
+    "ingredients": [
+      "Muslitos de pollo (jamoncitos)",
+      "Patata mediana",
+      "Ajo machacado",
+      "Aceite de oliva virgen extra",
+      "Pimentón dulce",
+      "Vino blanco (opcional)",
+      "Sal, pimienta y perejil fresco"
+    ],
+    "lastStep": "Saca el pollo y las patatas crujientes. Espolvorea un poco de perejil fresco recién picado por encima. ¡Un clásico infalible y sin manchar la cocina!",
+    "category": "airfryer",
+    "emoji": "🍗"
+  },
+  {
+    "id": "4ac8e847-fe87-4cc5-aa63-903b31e8ff2f",
+    "name": "Brochetas de Cerdo Ibérico con Champiñones al Airfryer",
+    "ingredients": [
+      "Lomo de cerdo ibérico magro",
+      "Champiñones frescos enteros",
+      "Pimiento verde",
+      "Aceite de oliva virgen extra",
+      "Pimentón dulce",
+      "Ajo en polvo",
+      "Sal y pimienta negra al gusto"
+    ],
+    "lastStep": "Abre la freidora, dale la vuelta a las brochetas agarrándolas por el palillo, y cocina por 4 minutos más. Sirve caliente directamente de la brocheta.",
+    "category": "airfryer",
+    "emoji": "🍢"
+  },
+  {
+    "id": "76918b63-1793-4ea0-bf7d-586f373fff59",
+    "name": "Canelones de Pollo Asado y Foie con Bechamel Ligera en Airfryer",
+    "ingredients": [
+      "Placas de canelones (pasta dura)",
+      "Pechuga de pollo entera",
+      "Paté de foie magro o paté de ave",
+      "Cebolla",
+      "Zanahoria pequeña",
+      "Leche desnatada o bebida de avena",
+      "Harina de avena (o trigo)",
+      "Queso rallado para gratinar",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y nuez moscada"
+    ],
+    "lastStep": "Deja reposar 2 minutos antes de meter el tenedor; la bechamel quemará y necesita asentar. ¡Un manjar tradicional laborioso adaptado a las nuevas tecnologías!",
+    "category": "airfryer",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "54d25b19-b55c-4300-bcb8-1ce4e32575c7",
+    "name": "Pimientos Rellenos de Arroz y Pavo Gratinados en Airfryer",
+    "ingredients": [
+      "Pimiento rojo mediano de asar",
+      "Carne picada de pavo",
+      "Arroz integral ya cocido",
+      "Cebolla",
+      "Salsa de tomate triturado natural",
+      "Queso tierno rallado",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y comino molido"
+    ],
+    "lastStep": "Cocina 1 o 2 minutos más a 200°C hasta que el queso esté fundido y dorado. Saca con cuidado de no volcarlo y sirve este completísimo almuerzo.",
+    "category": "airfryer",
+    "emoji": "🫑"
+  },
+  {
+    "id": "a1e7c424-0363-4370-8ec8-711c695891d7",
+    "name": "Taquitos Dorados de Pollo Saludables en Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pechuga de pollo cocida o asada",
+      "Aceite de aguacate o de oliva",
+      "Aguacate machacado",
+      "Salsa verde o roja al gusto",
+      "Queso fresco desmoronado",
+      "Sal y pimienta negra"
+    ],
+    "lastStep": "Saca los taquitos (¡quita los palillos!) y sírvelos en un plato cubiertos con el aguacate machacado, la salsa de tu preferencia y el queso fresco desmoronado.",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "fc1a7db8-7bf7-4f45-bfe4-9d7a563ae723",
+    "name": "Chile Relleno Capeado Saludable en Airfryer",
+    "ingredients": [
+      "Chile poblano grande",
+      "Queso panela o queso fresco firme",
+      "Huevos",
+      "Harina de avena o almendra",
+      "Aceite en spray o de oliva",
+      "Caldillo de tomate (salsa roja líquida)",
+      "Sal de mar"
+    ],
+    "lastStep": "Sirve el caldillo de tomate bien caliente como espejo en un plato hondo y coloca el chile relleno encima. Una cena mexicana auténtica y sin litros de aceite.",
+    "category": "airfryer",
+    "emoji": "🌶️"
+  },
+  {
+    "id": "9b7a1867-c683-4fa0-9b32-6a00d9293289",
+    "name": "Fajitas Express de Pollo a la Mexicana en Airfryer",
+    "ingredients": [
+      "Pechuga de pollo fileteada",
+      "Pimiento rojo y verde (mitad y mitad)",
+      "Cebolla blanca",
+      "Aceite de aguacate o de oliva",
+      "Sazonador para fajitas (comino, ajo polvo, pimentón)"
+    ],
+    "lastStep": "Saca las fajitas doradas y jugosas. Puedes comerlas solas (low carb), sobre una cama de lechuga o armar un taco si lo prefieres.",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "983f1f72-57a0-4908-b6c6-c0fb2081a0fd",
+    "name": "Pastel Azteca Individual Fit en Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pollo cocido y deshebrado",
+      "Salsa verde o roja al gusto",
+      "Granos de elote (maíz)",
+      "Pimiento o chile poblano asado",
+      "Queso Oaxaca o mozzarella rallado",
+      "Aceite de oliva o aguacate",
+      "Sal y pimienta"
+    ],
+    "lastStep": "Mete el recipiente en la Airfryer a 190°C durante 8-10 minutos, hasta que la salsa burbujee y el queso esté completamente derretido y dorado. Saca con cuidado (quema mucho) y disfruta de esta deliciosa cena tipo 'lasaña mexicana'.",
+    "category": "airfryer",
+    "emoji": "🍲"
+  },
+  {
+    "id": "d034913a-15a8-45c8-bbe3-ecc05d432c52",
+    "name": "Pechuga Rellena de Nopal y Queso Bañada en Salsa Verde (Airfryer)",
+    "ingredients": [
+      "Pechuga de pollo entera (sin hueso ni piel)",
+      "Nopal tierno limpio",
+      "Queso Oaxaca o asadero deshebrado",
+      "Salsa verde hervida",
+      "Aceite de oliva o spray antiadherente",
+      "Sal, pimienta negra y ajo en polvo",
+      "Sal en grano (para curar el nopal)"
+    ],
+    "lastStep": "Saca la pechuga de la Airfryer, retira los palillos obligatoriamente, córtala a la mitad para ver el relleno y báñala generosamente con la salsa verde caliente. ¡A cenar!",
+    "category": "airfryer",
+    "emoji": "🌵"
+  },
+  {
+    "id": "cbcb2962-7040-4f87-9344-619b811e6859",
+    "name": "Empanadas de Plátano Macho Rellenas de Frijol en Airfryer",
+    "ingredients": [
+      "Plátano macho maduro (cáscara con manchas negras)",
+      "Harina de avena",
+      "Frijoles refritos saludables (sin manteca)",
+      "Queso Oaxaca o panela desmoronado",
+      "Aceite de oliva o coco",
+      "Sal de mar"
+    ],
+    "lastStep": "Sácalas con una espátula para que no se rompan. Sírvelas calientes; puedes acompañarlas con un poquito de yogur griego a modo de 'crema' y salsa picante.",
+    "category": "airfryer",
+    "emoji": "🥟"
+  },
+  {
+    "id": "45b40340-e0e9-403d-bbce-b13c97f600e9",
+    "name": "Sopes Ligeros Horneados con Pollo y Aguacate en Airfryer",
+    "ingredients": [
+      "Harina de maíz nixtamalizado (Maseca)",
+      "Agua tibia",
+      "Pechuga de pollo cocida",
+      "Frijoles refritos saludables",
+      "Aguacate rebanado",
+      "Lechuga picada finamente",
+      "Queso fresco desmoronado",
+      "Salsa roja o verde",
+      "Aceite de aguacate o de oliva",
+      "Sal"
+    ],
+    "lastStep": "Baña los sopes con unas buenas cucharadas de tu salsa favorita. Ya tienes la típica garnacha mexicana en su versión más sana y digestiva para cenar.",
+    "category": "airfryer",
+    "emoji": "🥘"
+  },
+  {
+    "id": "b5efffc5-f319-4523-8d47-97bf0dad2895",
+    "name": "Tacos de Pescado Saludables tipo Baja en Airfryer",
+    "ingredients": [
+      "Filete de pescado blanco (tilapia, merluza o bacalao fresco)",
+      "Harina de avena o pan rallado integral",
+      "Huevo batido (solo usaremos un poco)",
+      "Tortillas de maíz",
+      "Col (repollo) morado y blanco rallado",
+      "Yogur griego natural (para el aderezo)",
+      "Aceite de oliva en spray",
+      "Sal, ajo en polvo y jugo de medio limón"
+    ],
+    "lastStep": "Calienta las tortillas de maíz. Pon 1 o 2 tiras de pescado crujiente en cada una y corona con la refrescante ensalada de col. ¡Un almuerzo delicioso y muy nutritivo!",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "3ec85d98-ba59-4180-ac7b-eb7eb5d983c2",
+    "name": "Tostadas Caseras de Tinga de Pollo Rápida en Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pechuga de pollo cocida y deshebrada",
+      "Cebolla blanca mediana",
+      "Puré de tomate natural",
+      "Salsa de chile chipotle adobado",
+      "Frijoles refritos untables",
+      "Lechuga picada y queso fresco desmoronado",
+      "Aceite de oliva",
+      "Sal, pimienta y orégano"
+    ],
+    "lastStep": "Espolvorea queso fresco desmoronado por encima y ya tienes un almuerzo muy tradicional, balanceado y listo en minutos.",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "a79cbfa2-d91a-477f-b0b2-b3d75e055238",
+    "name": "Milanesa de Res Saludable Empanizada con Nuez en Airfryer",
+    "ingredients": [
+      "Filete de res magro para milanesa (muy fino)",
+      "Huevo",
+      "Nuez pecana o almendra finamente molida",
+      "Pan rallado integral o panko",
+      "Aceite de aguacate en spray",
+      "Ajo en polvo, orégano seco",
+      "Sal de mar y pimienta negra"
+    ],
+    "lastStep": "Sácala dorada y crujiente. Tradicionalmente en México se acompaña con una buena ensalada fresca, aguacate y unas gotitas de limón.",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "fec7e267-ae47-44d5-8901-b0c882e997f8",
+    "name": "Huevos a la Flamenca en Cazuelita al Airfryer",
+    "ingredients": [
+      "Huevo campero",
+      "Tomate triturado natural",
+      "Guisantes cocidos",
+      "Pimiento morrón asado (de lata)",
+      "Jamón serrano en tacos",
+      "Patata",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y pimentón dulce"
+    ],
+    "lastStep": "Introduce la cazuela en la Airfryer y hornea a 180°C durante unos 5-7 minutos, hasta que la clara cuaje pero la yema siga líquida. Sirve muy caliente.",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "527142eb-02bb-4303-bfdb-c8a4aabecd06",
+    "name": "Timbal Ibérico de Boniato y Huevo al Airfryer",
+    "ingredients": [
+      "Boniato",
+      "Aceite de oliva extra virgen",
+      "Jamón ibérico magro",
+      "Huevos camperos",
+      "Pimentón de la Vera",
+      "Sal y pimienta negra al gusto",
+      "Perejil fresco"
+    ],
+    "lastStep": "Espolvorea el pimentón de la Vera por encima del huevo, decora con hojas de perejil fresco y sirve inmediatamente para disfrutar la yema fundida.",
+    "category": "airfryer",
+    "emoji": "🍠"
+  },
+  {
+    "id": "3ea8d0b4-d069-4bf4-baa7-4781a95ecc3c",
+    "name": "Cazuela de Huevos a la Flamenca al Airfryer",
+    "ingredients": [
+      "Tomate triturado natural",
+      "Chorizo ibérico magro en taquitos",
+      "Guisantes finos frescos o descongelados",
+      "Huevos camperos",
+      "Aceite de oliva extra virgen",
+      "Sal y pimienta negra al gusto",
+      "Pan integral tostado"
+    ],
+    "lastStep": "Vuelve a introducir la cazuela en la Airfryer y cocina a 160°C por 6 minutos exactos, hasta que la clara cuaje pero la yema siga líquida. Sirve muy caliente acompañado de la rebanada de pan tostado para mojar.",
+    "category": "airfryer",
+    "emoji": "🥘"
+  },
+  {
+    "id": "4c662307-bbb7-43e4-b176-40dbc4d7da38",
+    "name": "Mini Tortilla Española de Calabacín y Cebolla Caramelizada al Airfryer",
+    "ingredients": [
+      "Calabacín fresco",
+      "Cebolla blanca",
+      "Huevos camperos",
+      "Aceite de oliva extra virgen",
+      "Sal y pimienta negra al gusto",
+      "Queso manchego curado rallado"
+    ],
+    "lastStep": "Introduce de nuevo el molde a 160°C por 7 minutos hasta que la tortilla esté bien cuajada en el centro y dorada por encima. Desmolda en un plato con cuidado y sirve caliente.",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "bef297b3-fcda-4d9e-8d2a-f0956bcd5f3a",
+    "name": "Migas Andaluzas Fit al Airfryer con Huevo",
+    "ingredients": [
+      "Pan integral de masa madre (del día anterior)",
+      "Chorizo ibérico magro",
+      "Ajo fresco",
+      "Aceite de oliva extra virgen",
+      "Pimentón dulce",
+      "Huevo campero",
+      "Agua filtrada"
+    ],
+    "lastStep": "Sirve las migas súper crujientes en un plato hondo o sartencita de presentación y corona con el huevo recién hecho en el centro.",
+    "category": "airfryer",
+    "emoji": "🥖"
+  },
+  {
+    "id": "9f59b8d4-9de4-4342-9f51-240c5e6a9e61",
+    "name": "Huevos Rotos Fit con Patatas en Airfryer",
+    "ingredients": [
+      "Patata cruda",
+      "Aceite de oliva extra virgen",
+      "Huevos camperos",
+      "Jamón ibérico magro o serrano",
+      "Pimentón dulce o picante",
+      "Sal marina",
+      "Perejil fresco"
+    ],
+    "lastStep": "Pasa todo a un plato con cuidado. Añade las tiras de jamón, espolvorea el pimentón y el perejil. Justo antes de comer, 'rompe' los huevos para que la yema bañe las patatas.",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "2c2eadad-f4f9-46c4-8eab-695bd0741dd7",
+    "name": "Tomate Relleno de Huevo y Queso Ibérico al Airfryer",
+    "ingredients": [
+      "Tomate de ensalada grande y firme",
+      "Huevo campero",
+      "Queso ibérico curado o semicurado",
+      "Aceite de oliva virgen extra",
+      "Orégano seco",
+      "Pan integral",
+      "Sal marina y pimienta negra"
+    ],
+    "lastStep": "Sirve el tomate muy caliente espolvoreado con más orégano, pimienta negra recién molida y un hilito con la media cucharada de aceite restante. Acompaña con la tostada.",
+    "category": "airfryer",
+    "emoji": "🍅"
+  },
+  {
+    "id": "cd9c5574-c652-446d-bdbf-589c028ce39b",
+    "name": "Merluza al Ajillo y Pimentón en Airfryer",
+    "ingredients": [
+      "Lomo de merluza fresca sin espinas",
+      "Patata",
+      "Ajo fresco",
+      "Aceite de oliva virgen extra",
+      "Pimentón dulce",
+      "Vinagre de manzana o de vino blanco",
+      "Sal y pimienta negra al gusto"
+    ],
+    "lastStep": "Saca todo con cuidado usando una espátula ancha. Sirve la merluza sobre las patatas panadera y vierte los jugos que hayan quedado en el fondo.",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "ac71071e-3086-446a-a849-8049753ac77d",
+    "name": "Falso Cachopo de Lomo Ibérico y Serrano al Airfryer",
+    "ingredients": [
+      "Filetes muy finos de lomo de cerdo (2 uds)",
+      "Jamón serrano magro en lonchas",
+      "Queso semicurado en lonchas",
+      "Huevo campero",
+      "Pan rallado integral",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta negra al gusto"
+    ],
+    "lastStep": "Da la vuelta al cachopo cuidadosamente y hornea a la misma temperatura por 6 minutos más. Retira los palillos antes de servir.",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "f8f99f2c-95c9-4025-a5e7-c216712d90bc",
+    "name": "Berenjenas Rellenas a la Menorquina en Airfryer",
+    "ingredients": [
+      "Berenjena mediana",
+      "Atún al natural (escurrido)",
+      "Tomate triturado natural",
+      "Queso rallado ligero",
+      "Cebolla blanca",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y orégano"
+    ],
+    "lastStep": "Sirve en un plato llano con ayuda de una espátula ancha, espolvorea un poco más de orégano y disfruta de este plato tradicional modernizado.",
+    "category": "airfryer",
+    "emoji": "🍆"
+  },
+  {
+    "id": "dbdad792-fe3e-4d82-a86b-2c8f271c79b7",
+    "name": "Canelones de Calabacín Rellenos de Atún al Airfryer",
+    "ingredients": [
+      "Calabacín mediano recto",
+      "Atún al natural",
+      "Huevo duro (ya cocido)",
+      "Salsa de tomate casera o triturado",
+      "Queso rallado para gratinar",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y orégano"
+    ],
+    "lastStep": "Retira el molde con cuidado de no quemarte. Deja reposar 2 minutos para que se asienten los sabores antes de servir con espátula.",
+    "category": "airfryer",
+    "emoji": "🥒"
+  },
+  {
+    "id": "dfd5979e-97c0-4ca5-80eb-117d4cfbf26b",
+    "name": "Libritos de Lomo Rellenos de Queso y Pimientos al Airfryer",
+    "ingredients": [
+      "Filetes de lomo de cerdo (cortados en libro)",
+      "Pimientos asados en tiras",
+      "Queso Havarti ligero o fundido",
+      "Aceite de oliva virgen extra",
+      "Ajo en polvo",
+      "Sal y pimienta negra al gusto"
+    ],
+    "lastStep": "Retira los libritos de la freidora, quítales los palillos con cuidado y deja reposar 2 minutos para que el queso se asiente antes de servir.",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "01b9c56e-0da7-412a-bd9d-3a9b17f43baf",
+    "name": "Pimientos Rellenos de Carne a la Española al Airfryer",
+    "ingredients": [
+      "Pimiento rojo grande y firme",
+      "Carne picada magra (ternera o pollo)",
+      "Cebolla blanca",
+      "Ajo fresco",
+      "Tomate triturado natural",
+      "Aceite de oliva virgen extra",
+      "Queso rallado ligero",
+      "Sal, pimienta y comino"
+    ],
+    "lastStep": "Gratina a 190°C por 3 minutos más. Sirve caliente colocando la tapa original sobre el queso fundido para una presentación de chef.",
+    "category": "airfryer",
+    "emoji": "🫑"
+  },
+  {
+    "id": "fa2b5aa3-ec25-4b41-9b78-22cffc7d7bf2",
+    "name": "Costillar Ibérico Glaseado a la Mostaza al Airfryer",
+    "ingredients": [
+      "Costillas de cerdo ibérico magras",
+      "Patatas nuevas",
+      "Miel natural",
+      "Mostaza a la antigua (en grano)",
+      "Aceite de oliva virgen extra",
+      "Tomillo seco",
+      "Sal gruesa y pimienta negra"
+    ],
+    "lastStep": "Saca las costillas y déjalas reposar 3 minutos sobre la tabla para que los jugos se asienten antes de cortarlas. Sirve junto a los gajos de patata dorados.",
+    "category": "airfryer",
+    "emoji": "🍖"
+  },
+  {
+    "id": "f4a39931-41cd-4cba-b234-3622ec0f3f39",
+    "name": "Pulpo a la Gallega Asado en Airfryer",
+    "ingredients": [
+      "Pata de pulpo (previamente cocida)",
+      "Patata para cocer",
+      "Aceite de oliva virgen extra",
+      "Pimentón de la Vera dulce o picante",
+      "Sal en escamas (tipo Maldon)",
+      "Pimienta negra recién molida"
+    ],
+    "lastStep": "Sirve preferiblemente en un plato de madera. Pon la cama de patatas, encima el pulpo y espolvorea generosamente con las escamas de sal.",
+    "category": "airfryer",
+    "emoji": "🐙"
+  },
+  {
+    "id": "740f918f-9034-4563-bb7c-9f4289f06e64",
+    "name": "Pechuga Rellena a la Navarra en Airfryer",
+    "ingredients": [
+      "Pechuga de pollo entera (gruesa)",
+      "Jamón serrano magro",
+      "Queso tierno o semicurado",
+      "Pimientos del piquillo",
+      "Aceite de oliva virgen extra",
+      "Ajo en polvo",
+      "Sal, pimienta y orégano"
+    ],
+    "lastStep": "Saca el rollo de la freidora, déjalo reposar 2-3 minutos en una tabla, córtale el hilo (o quita los palillos) y córtalo en medallones gruesos para servir.",
+    "category": "airfryer",
+    "emoji": "🍗"
+  },
+  {
+    "id": "468d5c8e-d927-43cd-972e-afcffd653e1b",
+    "name": "Lasaña de Berenjena y Carne Picada al Airfryer",
+    "ingredients": [
+      "Carne picada mixta (vacuno/cerdo) o de pollo",
+      "Berenjena mediana",
+      "Tomate triturado natural",
+      "Queso rallado tipo Mozzarella light",
+      "Cebolla",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y orégano"
+    ],
+    "lastStep": "Saca el molde con guantes, déjalo asentar 3 minutos para que no se desmorone y sirve ayudándote de una espátula.",
+    "category": "airfryer",
+    "emoji": "🍆"
+  },
+  {
+    "id": "8cd6d648-f4fa-4e4c-b276-6d238082f9ec",
+    "name": "Albóndigas de Choco a la Andaluza al Airfryer",
+    "ingredients": [
+      "Choco o Sepia limpia",
+      "Cebolla blanca",
+      "Ajo fresco",
+      "Pan integral (miga)",
+      "Leche desnatada",
+      "Huevo pequeño o mitad batida",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta, perejil fresco y azafrán"
+    ],
+    "lastStep": "Hornea por 4-5 minutos más hasta que estén doradas. Saca y sirve inmediatamente, ideales con una guarnición de ensalada fresca.",
+    "category": "airfryer",
+    "emoji": "🦑"
+  },
+  {
+    "id": "bcfb6847-023e-4507-bba9-923104513e76",
+    "name": "Churros Saludables de Avena al Airfryer con Salsa Fit",
+    "ingredients": [
+      "Harina de avena integral",
+      "Agua",
+      "Huevo pequeño",
+      "Aceite de oliva virgen extra",
+      "Cacao puro desgrasado en polvo",
+      "Leche desnatada (para la salsa)",
+      "Eritritol o Stevia granulada",
+      "Sal"
+    ],
+    "lastStep": "Saca los churros de la freidora, espolvoréalos opcionalmente con un poco de eritritol y sírvelos calientes para mojar en la salsa.",
+    "category": "airfryer",
+    "emoji": "☕"
+  },
+  {
+    "id": "cebb1e68-fdd7-4206-8aa9-beab13d950bd",
+    "name": "Empanadillas Integrales de Atún y Huevo Caseras al Airfryer",
+    "ingredients": [
+      "Harina de trigo integral o espelta",
+      "Agua tibia",
+      "Aceite de oliva virgen extra",
+      "Atún al natural (escurrido)",
+      "Huevo campero duro",
+      "Huevo batido (solo para pintar)",
+      "Cebolla blanca picada",
+      "Pimiento rojo picado",
+      "Tomate triturado"
+    ],
+    "lastStep": "Hornea por 4 minutos más hasta que estén totalmente crujientes. Déjalas enfriar sobre una rejilla para que no se ablanden.",
+    "category": "airfryer",
+    "emoji": "🥟"
+  },
+  {
+    "id": "7dcf2910-0f42-4e0e-890b-fa111b062d1c",
+    "name": "Salmón al Papillote con Verduras en Airfryer",
+    "ingredients": [
+      "Lomo de Salmón fresco (sin espinas)",
+      "Calabacín",
+      "Zanahoria",
+      "Cebolla",
+      "Aceite de oliva virgen extra",
+      "Limón (en rodajas finas)",
+      "Sal, pimienta y eneldo seco"
+    ],
+    "lastStep": "Saca el paquete con cuidado de no quemarte con el vapor, ábrelo y sírvelo directamente en el plato con sus jugos naturales.",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "bf3d9fb0-ba79-4e81-8eae-5e8a2096e3ac",
+    "name": "Tataki de Atún con Sésamo y Pimientos en Airfryer",
+    "ingredients": [
+      "Lomo de Atún fresco (previamente congelado por anisakis)",
+      "Pimiento rojo",
+      "Pimiento verde",
+      "Salsa de soja baja en sodio",
+      "Semillas de sésamo mixto (blanco y negro)",
+      "Aceite de oliva virgen extra",
+      "Sal en escamas"
+    ],
+    "lastStep": "Con un cuchillo muy afilado, corta el atún en láminas finas (verás el centro rojo y crudo). Sirve sobre la cama de pimientos asados y corona con sal en escamas.",
+    "category": "airfryer",
+    "emoji": "🍣"
+  },
+  {
+    "id": "887e9a0a-d701-42d0-b50e-05a5e08f1a74",
+    "name": "Falsos Canelones de Puerro con Gambas al Airfryer",
+    "ingredients": [
+      "Puerro grueso (solo la parte blanca)",
+      "Gambas peladas crudas",
+      "Lomo de merluza sin espinas",
+      "Queso rallado tipo Emmental light",
+      "Harina de avena o integral",
+      "Leche desnatada",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta negra y nuez moscada"
+    ],
+    "lastStep": "Introduce el molde en la Airfryer a 190°C durante 6 minutos, hasta que la salsa espese ligeramente y el queso esté dorado.",
+    "category": "airfryer",
+    "emoji": "🍤"
+  },
+  {
+    "id": "af1ddef3-4e1d-4ef5-b174-fbba50f119f0",
+    "name": "Croquetas Ligeras de Bacalao y Coliflor al Airfryer",
+    "ingredients": [
+      "Bacalao desmigado desalado",
+      "Coliflor (sustituye a la bechamel)",
+      "Cebolla blanca",
+      "Ajo fresco",
+      "Huevo campero (para rebozar)",
+      "Pan rallado integral o Panko",
+      "Aceite de oliva virgen extra",
+      "Nuez moscada, sal, pimienta y perejil"
+    ],
+    "lastStep": "Hornea a 200°C durante 6-8 minutos hasta que doren. Déjalas reposar 2 minutos fuera antes de morder, ¡por dentro queman mucho!",
+    "category": "airfryer",
+    "emoji": "🧆"
+  },
+  {
+    "id": "49252f85-545e-448c-8897-331e5e63c555",
+    "name": "Mini Flamenquines Ligeros de Pollo al Airfryer",
+    "ingredients": [
+      "Filetes muy finos de pollo (2 uds)",
+      "Fiambre de pavo en lonchas",
+      "Queso en lonchas bajo en grasa",
+      "Huevo duro pequeño",
+      "Huevo campero (para rebozar)",
+      "Pan rallado integral",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta negra y ajo en polvo"
+    ],
+    "lastStep": "Abre, dales la vuelta con cuidado, y hornea 2 minutos más hasta que estén dorados. Sirve con ensalada verde.",
+    "category": "airfryer",
+    "emoji": "🥖"
+  },
+  {
+    "id": "27192861-ef44-43a3-96d6-a76ae8366343",
+    "name": "Torrija Fit al Airfryer",
+    "ingredients": [
+      "Pan integral (del día anterior)",
+      "Leche desnatada",
+      "Huevo campero",
+      "Canela en polvo",
+      "Eritritol o Stevia",
+      "Aceite de coco fundido"
+    ],
+    "lastStep": "Dale la vuelta a la torrija, hornea 2 minutos más para que dore y sírvela caliente con más canela por encima.",
+    "category": "airfryer",
+    "emoji": "🍞"
+  },
+  {
+    "id": "d96ed413-25cd-4a66-be56-c7f7658dbe2e",
+    "name": "Muffins Proteicos de Huevo al Airfryer",
+    "ingredients": [
+      "Huevos camperos",
+      "Jamón serrano en taquitos",
+      "Espinacas frescas",
+      "Queso rallado tipo Mozzarella light",
+      "Leche desnatada",
+      "Aceite de oliva virgen extra",
+      "Sal, pimienta y orégano"
+    ],
+    "lastStep": "Hornea a 180°C durante 10 minutos. Saca, deja enfriar 1 minuto y desmolda sobre el plato.",
+    "category": "airfryer",
+    "emoji": "🥚"
+  },
+  {
+    "id": "f6fbc993-de8b-4715-ae82-cc84a3566d1c",
+    "name": "Tacos Dorados de Pollo Saludables al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pechuga de pollo deshebrada (ya cocida)",
+      "Queso fresco desmoronado",
+      "Aceite de oliva en spray",
+      "Salsa verde o roja casera",
+      "Lechuga romana picada",
+      "Sal y pimienta"
+    ],
+    "lastStep": "Saca los tacos dorados, retira los palillos con cuidado y sírvelos cubiertos de lechuga, queso fresco y la salsa de tu preferencia.",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "2b993891-5e18-4ea0-83d5-80c3821afa08",
+    "name": "Fajitas de Pollo y Verduras Exprés al Airfryer",
+    "ingredients": [
+      "Pechuga de pollo cruda",
+      "Pimiento rojo",
+      "Pimiento verde",
+      "Cebolla morada",
+      "Sazonador para fajitas",
+      "Aceite de oliva virgen extra",
+      "Limón (solo su jugo)",
+      "Tortillas integrales o de maíz"
+    ],
+    "lastStep": "Hornea otros 5 minutos hasta que el pollo esté dorado y la verdura tierna. Calienta las tortillas y sirve la mezcla directamente.",
+    "category": "airfryer",
+    "emoji": "🫑"
+  },
+  {
+    "id": "73f297e6-b2ce-44b3-abbc-0af764009cec",
+    "name": "Enchiladas Suizas Ligeras al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pollo cocido deshebrado",
+      "Salsa verde de tomatillo (comercial o casera)",
+      "Yogur natural griego o crema agria ligera",
+      "Queso rallado bajo en grasa (Mozzarella)",
+      "Cebolla morada en tiras finas",
+      "Aceite en spray"
+    ],
+    "lastStep": "Saca el recipiente con mucho cuidado (¡quema!) y sirve directamente. ¡Listo tu almuerzo estilo suizo pero fit!",
+    "category": "airfryer",
+    "emoji": "🥘"
+  },
+  {
+    "id": "40fe9bec-e31b-4ba6-b669-2d0c35d6503d",
+    "name": "Chilaquiles Saludables de Totopos Horneados al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz del día anterior",
+      "Aceite de oliva virgen extra",
+      "Salsa roja o verde casera",
+      "Pollo cocido deshebrado",
+      "Queso panela o fresco desmoronado",
+      "Cebolla blanca picada",
+      "Yogur natural griego (sin azúcar)",
+      "Cilantro fresco picado"
+    ],
+    "lastStep": "Espolvorea cilantro fresco por encima y sirve inmediatamente para que los totopos sigan crocantes.",
+    "category": "airfryer",
+    "emoji": "🌽"
+  },
+  {
+    "id": "2ce97ad9-feb3-469e-8305-7726a0ac909c",
+    "name": "Burrito Bowl de Carne y Pimientos al Airfryer",
+    "ingredients": [
+      "Carne molida magra (ternera o pollo)",
+      "Frijoles negros de bote",
+      "Maíz dulce",
+      "Pimiento verde",
+      "Cebolla blanca",
+      "Sazonador para tacos",
+      "Aceite de oliva virgen extra",
+      "Queso rallado bajo en grasa"
+    ],
+    "lastStep": "Añade unas hojas de cilantro fresco y unas gotas de limón antes de disfrutar tu burrito bowl sin carbohidratos pesados.",
+    "category": "airfryer",
+    "emoji": "🥣"
+  },
+  {
+    "id": "e0e337f9-6d3c-4db2-91a5-224111c263bf",
+    "name": "Quesadilla Rápida de Pollo al Airfryer",
+    "ingredients": [
+      "Tortilla integral o de avena",
+      "Pollo cocido deshebrado",
+      "Queso rallado bajo en grasa",
+      "Aguacate fresco",
+      "Pico de gallo o salsa casera",
+      "Aceite de oliva en spray"
+    ],
+    "lastStep": "Retira el palillo, córtala en triángulos y acompáñala con rodajas de aguacate fresco y salsa pico de gallo.",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "a32a139b-4f53-430a-9e19-a919f77d9ea7",
+    "name": "Chile Relleno Ligero al Airfryer",
+    "ingredients": [
+      "Chile poblano",
+      "Pollo cocido deshebrado",
+      "Queso Oaxaca light o Mozzarella",
+      "Salsa de tomate roja",
+      "Aceite de oliva en spray",
+      "Sal y orégano"
+    ],
+    "lastStep": "Retira los palillos con cuidado y sirve el chile bañado con la salsa de tomate caliente. Espolvorea orégano encima.",
+    "category": "airfryer",
+    "emoji": "🌶️"
+  },
+  {
+    "id": "578b8611-4f37-4082-af86-91271b791569",
+    "name": "Tostadas de Tinga de Pollo Fit al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pechuga de pollo cocida deshebrada",
+      "Tomate triturado natural",
+      "Cebolla blanca en plumas finas",
+      "Salsa o adobo de chile chipotle",
+      "Aceite de oliva en spray",
+      "Frijoles refritos bajos en grasa",
+      "Lechuga picada, Queso fresco desmoronado, Yogur natural"
+    ],
+    "lastStep": "Coronamos las tostadas con un poco de queso fresco desmoronado y unas gotitas de yogur natural a modo de crema. ¡A comer rápido para que no se ablanden!",
+    "category": "airfryer",
+    "emoji": "🥗"
+  },
+  {
+    "id": "62a10e90-b4f1-490b-81ea-d74a90f68c48",
+    "name": "Gordita Fit de Avena Rellena de Picadillo al Airfryer",
+    "ingredients": [
+      "Harina de avena integral",
+      "Agua tibia",
+      "Carne molida magra de res (Picadillo)",
+      "Zanahoria pequeña",
+      "Papa pequeña",
+      "Cebolla blanca picada",
+      "Salsa de tomate casera",
+      "Aceite de oliva",
+      "Sal, pimienta y comino"
+    ],
+    "lastStep": "Sírvela caliente. Puedes abrir un poco más el corte para añadirle lechuga picada fresca y un poco más de salsa al gusto.",
+    "category": "airfryer",
+    "emoji": "🫓"
+  },
+  {
+    "id": "8de919d2-40bd-4bd5-8132-cd8292e91730",
+    "name": "Sopes Saludables de Avena con Pollo al Airfryer",
+    "ingredients": [
+      "Harina de avena integral",
+      "Agua tibia",
+      "Frijoles refritos ligeros",
+      "Pollo cocido deshebrado",
+      "Salsa verde casera",
+      "Queso panela o mozzarella rallado",
+      "Lechuga romana picada",
+      "Aceite en spray",
+      "Sal"
+    ],
+    "lastStep": "Retira los sopes de la canastilla, cúbrelos con abundante lechuga fresca y sírvelos de inmediato.",
+    "category": "airfryer",
+    "emoji": "🥗"
+  },
+  {
+    "id": "9099dec3-004a-4d9b-8fc4-6ef4269ddb15",
+    "name": "Tamal Fit en Hoja de Plátano al Airfryer",
+    "ingredients": [
+      "Hoja de plátano (unos 20x20 cm)",
+      "Harina de avena o masa de maíz",
+      "Caldo de pollo caliente",
+      "Aceite de oliva o de coco",
+      "Pollo cocido deshebrado",
+      "Salsa verde o roja",
+      "Polvo para hornear (Royal)",
+      "Sal"
+    ],
+    "lastStep": "Sácalo, déjalo reposar 5 minutos para que la masa termine de cuajar, y ábrelo para disfrutar.",
+    "category": "airfryer",
+    "emoji": "🫔"
+  },
+  {
+    "id": "5b44a40e-c4bc-434e-8d15-a9c8f77f7cf6",
+    "name": "Huarache de Nopal con Bistec al Airfryer",
+    "ingredients": [
+      "Nopal tierno entero (limpio de espinas)",
+      "Bistec de res magro",
+      "Frijoles refritos bajos en grasa",
+      "Queso panela o fresco rallado",
+      "Salsa verde casera",
+      "Cebolla blanca",
+      "Aceite de oliva",
+      "Sal, pimienta y cilantro fresco"
+    ],
+    "lastStep": "Saca tu huarache fit, decora con cilantro fresco picado y disfruta de tu almuerzo mexicano bajo en carbohidratos.",
+    "category": "airfryer",
+    "emoji": "🌵"
+  },
+  {
+    "id": "636e7a6d-9a01-4c35-877a-3ad2df60969f",
+    "name": "Pechuga Rellena de Flor de Calabaza al Airfryer",
+    "ingredients": [
+      "Pechuga de pollo (abierta en mariposa)",
+      "Flor de calabaza limpia",
+      "Queso Oaxaca light",
+      "Aceite de oliva",
+      "Salsa de molcajete (roja o verde)",
+      "Sal y pimienta negra"
+    ],
+    "lastStep": "Saca la pechuga, retira los palillos con cuidado, córtala a la mitad para ver el relleno fundido y báñala con la salsa de molcajete. ¡Lista para comer!",
+    "category": "airfryer",
+    "emoji": "🍗"
+  },
+  {
+    "id": "7b0db2f0-29c6-4ae9-9713-677ad741b3da",
+    "name": "Carnitas Fit Estilo Michoacán al Airfryer",
+    "ingredients": [
+      "Lomo o pierna de cerdo sin grasa",
+      "Jugo de naranja natural",
+      "Salsa de soja baja en sodio",
+      "Manteca de cerdo fundida o Aceite de coco",
+      "Ajo finamente picado",
+      "Cebolla blanca",
+      "Mix de comino, orégano y sal",
+      "Tortillas de maíz (para servir)"
+    ],
+    "lastStep": "Saca las carnitas, desmenúzalas un poco con dos tenedores y sírvelas en las tortillas de maíz calientes. ¡Un manjar altísimo en proteínas!",
+    "category": "airfryer",
+    "emoji": "🐷"
+  },
+  {
+    "id": "d0cac24e-cc80-40f8-9586-463b000c0f81",
+    "name": "Pechuga Cordon Bleu Estilo Mexicano al Airfryer",
+    "ingredients": [
+      "Pechuga de pollo fileteada (en sábana)",
+      "Jamón de pavo bajo en sal",
+      "Queso Manchego light o Panela",
+      "Chile chipotle adobado picado",
+      "Huevo batido",
+      "Avena molida fina",
+      "Aceite de oliva en spray",
+      "Sal y pimienta negra"
+    ],
+    "lastStep": "Saca el rollo, retira todos los palillos con cuidado y córtalo en medallones gruesos para mostrar el relleno fundido y picante.",
+    "category": "airfryer",
+    "emoji": "🍗"
+  },
+  {
+    "id": "d0ec95c3-d456-46ff-93a1-6b7e4fa19011",
+    "name": "Mixiote de Cordero Fit al Airfryer",
+    "ingredients": [
+      "Carne de cordero magra picada",
+      "Chiles guajillo secos",
+      "Chile ancho seco",
+      "Ajo y 1/4 de Cebolla",
+      "Aceite de oliva",
+      "Orégano, comino, clavo, canela y sal",
+      "Papel pergamino o aluminio (para envolver)",
+      "Nopalitos en tiras tiernos"
+    ],
+    "lastStep": "Apaga, deja reposar 4 minutos. Saca el costalito con cuidado (estará muy caliente), córtale el hilo y ábrelo para que el vapor libere el aroma.",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "3fb8c32d-7799-4794-8c75-ffbc9b52a421",
+    "name": "Milanesa de Res Estilo Toluca al Airfryer",
+    "ingredients": [
+      "Milanesa de res (corte muy delgado)",
+      "Chorizo o longaniza (estilo Toluca)",
+      "Queso asadero o manchego",
+      "Huevo batido",
+      "Pan molido integral o Panko",
+      "Puré de tomate casero",
+      "Aceite de oliva en spray",
+      "Sal y pimienta"
+    ],
+    "lastStep": "Sácala, déjala reposar un minuto para que el queso se asiente, córtala en tiras gruesas y disfruta un almuerzo de campeones.",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "ce90b0a0-5ef0-4776-b02d-6aaa338fa5f4",
+    "name": "Quesadillas Fit de Champiñones al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Queso Oaxaca light deshebrado",
+      "Champiñones frescos rebanados",
+      "Pico de gallo fresco",
+      "Salsa casera"
+    ],
+    "lastStep": "Sácalas calientes, ábrelas un poco para meter el pico de gallo, báñalas en salsa y disfruta una cena ligerísima.",
+    "category": "airfryer",
+    "emoji": "🧀"
+  },
+  {
+    "id": "8d3d2eb8-2326-4d78-8e6d-3053ce4fbdde",
+    "name": "Rollo de Carne Molida Relleno al Airfryer",
+    "ingredients": [
+      "Carne de res molida (80/20)",
+      "Huevo duro (cocido y pelado)",
+      "Tocino de cerdo o pavo",
+      "Cebolla y pimiento muy picados",
+      "Avena molida (para dar cuerpo)",
+      "Sal, pimienta, ajo en polvo, orégano"
+    ],
+    "lastStep": "Saca el rollo, déjalo reposar un par de minutos para que los jugos se asienten. Córtalo en rodajas para revelar el centro con el huevo y sirve.",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "136f4973-cac8-4dc7-ad8a-65f93d0fd75d",
+    "name": "Chimichanga Casera de Res al Airfryer",
+    "ingredients": [
+      "Tortilla de harina integral (tipo burro)",
+      "Carne de res cocida deshebrada (falda)",
+      "Queso asadero o mozzarella",
+      "Frijoles refritos",
+      "Arroz cocido (rojo o blanco)",
+      "Aceite de oliva (para barnizar)",
+      "Guacamole casero y crema ligera (topping)",
+      "Sal, ajo en polvo y comino"
+    ],
+    "lastStep": "Retira los palillos. Sírvela bañada o acompañada con el guacamole fresco y un toque de crema. ¡Un cañón de energía!",
+    "category": "airfryer",
+    "emoji": "🌯"
+  },
+  {
+    "id": "29537415-1f55-4533-a470-c24af8b37503",
+    "name": "Chile en Nogada Fit al Airfryer",
+    "ingredients": [
+      "Chile poblano",
+      "Picadillo de res magro (cocido con trocitos de manzana)",
+      "Almendras fileteadas",
+      "Yogur griego natural sin azúcar",
+      "Nuez de castilla",
+      "Granada fresca desgranada",
+      "Sal y un chorrito de agua",
+      "Perejil fresco picado"
+    ],
+    "lastStep": "Decora esparciendo las semillas rojas de granada y el perejil fresco (verde) formando los colores de la bandera de México.",
+    "category": "airfryer",
+    "emoji": "🌶️"
+  },
+  {
+    "id": "aeb84658-64f0-4029-8553-de906aa2e2d0",
+    "name": "Pollo en Mole Poblano Express al Airfryer",
+    "ingredients": [
+      "Pechuga o muslo de pollo",
+      "Chile pasilla y 1 Chile ancho",
+      "Almendras y 1 cda Ajonjolí",
+      "Pasitas",
+      "Plátano macho",
+      "Galleta María o Pan integral tostado",
+      "Chocolate amargo (70%+)",
+      "Caldo de pollo"
+    ],
+    "lastStep": "Saca el pollo enmolado, sírvelo en un plato y espolvorea un poco de ajonjolí por encima para decorar. ¡Un clásico hecho desde cero!",
+    "category": "airfryer",
+    "emoji": "🍗"
+  },
+  {
+    "id": "b799b109-6654-4a17-9d9e-bcb74aa2fb26",
+    "name": "Cazuelita de Huevos Ahogados al Airfryer",
+    "ingredients": [
+      "Huevos enteros",
+      "Salsa roja casera (tatemada)",
+      "Queso panela en cubitos",
+      "Tortilla de maíz horneada (tostada)",
+      "Sal y pimienta negra",
+      "Cilantro fresco"
+    ],
+    "lastStep": "Saca la cazuelita con cuidado (estará muy caliente), decora con hojitas de cilantro fresco y acompáñala con la tostada crujiente para chopear.",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "bdfda673-1f9d-449d-a431-151454f9fbed",
+    "name": "Croquetas de Jamón Ibérico al Airfryer",
+    "ingredients": [
+      "Jamón ibérico muy picado",
+      "Harina de trigo",
+      "Mantequilla",
+      "Leche desnatada caliente",
+      "Huevo batido",
+      "Pan rallado o Panko",
+      "Aceite en spray",
+      "Nuez moscada y sal"
+    ],
+    "lastStep": "A la mitad del tiempo dales la vuelta con cuidado. Cuando estén doradas, sácalas y disfruta de unas tapas españolas perfectas.",
+    "category": "airfryer",
+    "emoji": "🥘"
+  },
+  {
+    "id": "436593be-a8e7-4c40-b1af-266c416cc02d",
+    "name": "Molletes Fit de Nopal al Airfryer",
+    "ingredients": [
+      "Nopales tiernos medianos",
+      "Frijoles refritos bajos en grasa",
+      "Queso panela rallado o en rebanadas",
+      "Pico de gallo fresco",
+      "Aceite de oliva",
+      "Orégano seco y sal"
+    ],
+    "lastStep": "Retíralos de la canastilla, ponlos en un plato y corónalos con abundante pico de gallo fresco. ¡Un desayuno nutritivo y ligero!",
+    "category": "airfryer",
+    "emoji": "🌵"
+  },
+  {
+    "id": "81eae497-4061-4cf4-b269-6835d54fde5b",
+    "name": "Huevos Divorciados en Costra al Airfryer",
+    "ingredients": [
+      "Huevos enteros",
+      "Queso asadero o manchego rallado",
+      "Salsa verde casera",
+      "Salsa roja casera",
+      "Frijoles refritos",
+      "Aceite en spray",
+      "Sal y pimienta"
+    ],
+    "lastStep": "Cierra la freidora y dale 2 minutos más a 180°C para calentar las salsas. Saca y sirve directamente en el recipiente para disfrutar.",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "482794d4-df48-4c3d-b2aa-55fb615db1dd",
+    "name": "Omelette de Claras con Flor de Calabaza al Airfryer",
+    "ingredients": [
+      "Claras de huevo",
+      "Flor de calabaza limpia",
+      "Queso panela light o cottage",
+      "Calabacita (zucchini) rallada",
+      "Pico de gallo o salsa fresca",
+      "Aceite en spray",
+      "Sal y pimienta blanca"
+    ],
+    "lastStep": "Con la espátula, dobla el omelette por la mitad, pásalo a un plato y acompáñalo con pico de gallo. ¡Un desayuno súper fit de menos de 200 kcal!",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "df082952-f953-4996-ba27-2929afb75dc2",
+    "name": "Cazuela de Enchiladas Suizas Desarmadas",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pechuga de pollo cocida y deshebrada",
+      "Salsa verde para enchiladas (casera)",
+      "Queso asadero o manchego",
+      "Crema entera o media crema",
+      "Aguacate",
+      "Cebolla morada en tiras finas",
+      "Aceite de oliva en spray o líquido"
+    ],
+    "lastStep": "Sácala con cuidado (quemará mucho). Ponle encima las rodajas de aguacate y la cebolla morada. ¡Sabor a enchiladas sin freír!",
+    "category": "airfryer",
+    "emoji": "🥘"
+  },
+  {
+    "id": "bc45aa04-d057-4999-961b-d78c022840b0",
+    "name": "Huevos Motuleños Fit al Airfryer",
+    "ingredients": [
+      "Tortilla de maíz",
+      "Huevo entero",
+      "Frijoles refritos negros",
+      "Salsa de tomate casera (chiltomate)",
+      "Chícharos (guisantes) cocidos",
+      "Jamón de pavo picado",
+      "Queso panela desmoronado",
+      "Aceite en spray y sal"
+    ],
+    "lastStep": "Hornea 2 minutos más a 160°C para fundir el queso y calentar todo. ¡Sirve con cuidado y disfruta un desayuno yucateco fit!",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "cb1ea295-97ec-4987-8cd1-2612a5255fb9",
+    "name": "Tacos Dorados de Huevo a la Mexicana al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Huevos enteros",
+      "Jitomate picado",
+      "Cebolla blanca picada",
+      "Chile serrano sin semillas",
+      "Aceite en spray",
+      "Salsa verde casera",
+      "Queso fresco desmoronado"
+    ],
+    "lastStep": "Saca los tacos crujientes, sírvelos en un plato, báñalos con la salsa verde y espolvorea el queso fresco. ¡Desayuno crujiente listo!",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "3d030362-f3e2-4f6f-b1cb-b3e54bc35425",
+    "name": "Burrito Mañanero de Huevo con Chorizo Fit al Airfryer",
+    "ingredients": [
+      "Tortilla de harina integral (tipo burro)",
+      "Huevos enteros",
+      "Chorizo de pavo desmenuzado",
+      "Queso Oaxaca light deshebrado",
+      "Frijoles refritos",
+      "Aceite en spray",
+      "Pimienta negra"
+    ],
+    "lastStep": "Tuesta a 200°C por 4 minutos para dorar la tortilla y fundir el queso interior. ¡Crujiente y delicioso!",
+    "category": "airfryer",
+    "emoji": "🌯"
+  },
+  {
+    "id": "781eae20-cd98-47a7-ab1a-c06c12514dce",
+    "name": "Enfrijoladas Ligeras de Queso Fresco al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Queso fresco desmoronado",
+      "Frijoles de la olla licuados espesos",
+      "Crema baja en grasa o Yogur natural",
+      "Cebolla blanca picada",
+      "Cilantro fresco picado"
+    ],
+    "lastStep": "Decora con la cucharada de crema ligera, la cebolla picada, el cilantro y el resto del queso espolvoreado. ¡Un desayuno rápido y reconfortante!",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "035d3438-3c37-4183-ab48-94856d9e4a71",
+    "name": "Tlacoyo Ligero de Haba al Airfryer",
+    "ingredients": [
+      "Tlacoyo de masa de maíz relleno de haba (sin freír)",
+      "Huevo entero",
+      "Nopales cocidos en cubitos",
+      "Salsa roja de molcajete",
+      "Queso fresco rallado",
+      "Aceite en spray"
+    ],
+    "lastStep": "Baña el huevo con la salsa roja de molcajete y espolvorea el queso fresco. ¡Desayuno tradicional y muy fit!",
+    "category": "airfryer",
+    "emoji": "🌽"
+  },
+  {
+    "id": "062e37eb-16e7-48ff-999c-7645812e7c54",
+    "name": "Gordita de Nopal Rellena de Huevo al Airfryer",
+    "ingredients": [
+      "Nopal limpio",
+      "Huevo entero y 1 clara",
+      "Pico de gallo",
+      "Queso Oaxaca light deshebrado",
+      "Aceite en spray",
+      "Salsa picante al gusto"
+    ],
+    "lastStep": "Tapa con la otra penca de nopal simulando una gordita. Baña con tu salsa favorita. ¡Un desayuno bajísimo en carbohidratos!",
+    "category": "airfryer",
+    "emoji": "🌵"
+  },
+  {
+    "id": "c2cc7f5a-ee3e-42d0-9ce7-a9e6c6b7fd07",
+    "name": "Quesadilla de Champiñones con Huevo al Airfryer",
+    "ingredients": [
+      "Tortilla de harina integral",
+      "Champiñones fileteados",
+      "Claras de huevo",
+      "Queso Oaxaca light deshebrado",
+      "Epazote fresco picado",
+      "Cebolla picada",
+      "Aceite en spray",
+      "Salsa roja o verde"
+    ],
+    "lastStep": "Sácala, córtala a la mitad (para ver cómo el queso se estira) y acompáñala con salsa. ¡Nutrición y sabor en cada mordida!",
+    "category": "airfryer",
+    "emoji": "🧀"
+  },
+  {
+    "id": "d2a48b6a-4bab-4754-b500-dddc208e722b",
+    "name": "Sope Casero de Avena con Chorizo y Huevo",
+    "ingredients": [
+      "Harina de avena (avena molida)",
+      "Huevo entero",
+      "Chorizo de pavo desmenuzado",
+      "Frijoles refritos",
+      "Queso panela desmoronado",
+      "Crema entera",
+      "Aceite en spray y sal",
+      "Agua tibia (para la masa)"
+    ],
+    "lastStep": "Ponle tu salsa mexicana favorita por encima y disfruta un sope contundente y lleno de energía.",
+    "category": "airfryer",
+    "emoji": "🥟"
+  },
+  {
+    "id": "b5de5d79-4d6e-4e75-a796-b64afc7ffed6",
+    "name": "Migas Norteñas con Huevo al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz del día anterior",
+      "Huevos enteros",
+      "Chorizo de pavo picado",
+      "Pico de gallo (jitomate, cebolla, chile)",
+      "Queso fresco desmoronado",
+      "Aceite en spray",
+      "Sal"
+    ],
+    "lastStep": "Saca las migas norteñas, ponlas en un plato, espolvorea el queso fresco por encima. ¡Listas para un súper desayuno!",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "418da8f8-2d98-41f2-929c-3257a4f8e249",
+    "name": "Chile Relleno Ahogado en Frijol al Airfryer",
+    "ingredients": [
+      "Chile Poblano",
+      "Huevo entero",
+      "Queso Panela desmoronado",
+      "Frijoles licuados espesos",
+      "Pico de gallo",
+      "Aceite en spray"
+    ],
+    "lastStep": "Saca el chile de la freidora con una espátula y ponlo sobre la salsa de frijol. ¡Un desayuno de campeones!",
+    "category": "airfryer",
+    "emoji": "🌶️"
+  },
+  {
+    "id": "b64faad2-d564-4268-aeef-490f7787acea",
+    "name": "Rollo de Plátano Macho con Pollo y Mole",
+    "ingredients": [
+      "Plátano macho muy maduro (cáscara negra)",
+      "Pechuga de pollo cocida y deshebrada",
+      "Pasta de mole poblano preparada",
+      "Queso fresco o cotija desmoronado",
+      "Ajonjolí tostado (sésamo)"
+    ],
+    "lastStep": "Saca el rollo gratinado, espolvorea el ajonjolí por encima y sirve. ¡Un desayuno dulce-salado contundente!",
+    "category": "airfryer",
+    "emoji": "🍌"
+  },
+  {
+    "id": "09c1416e-5f45-4919-b2e9-45cee1ad93af",
+    "name": "Tamalito Fit de Elote en Hoja al Airfryer",
+    "ingredients": [
+      "Granos de elote natural (amarillo o blanco)",
+      "Harina de avena",
+      "Clara de huevo",
+      "Mantequilla derretida o ghee",
+      "Polvo para hornear y sal",
+      "Hojas secas de maíz para tamal",
+      "Queso fresco en tiras (para relleno)",
+      "Salsa verde casera"
+    ],
+    "lastStep": "Saca, deja reposar 2 minutos para que tome cuerpo, abre la hoja y baña el tamalito con salsa verde. ¡Desayuno de reyes fit!",
+    "category": "airfryer",
+    "emoji": "🌽"
+  },
+  {
+    "id": "23560dde-8c41-4de1-9c28-f2ddc1382f66",
+    "name": "Pastel Azteca de Desayuno al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Huevo entero",
+      "Pechuga de pollo cocida y deshebrada",
+      "Queso asadero o manchego rallado",
+      "Granos de elote cocidos",
+      "Rajas poblanas cocidas",
+      "Salsa verde casera",
+      "Aceite en spray"
+    ],
+    "lastStep": "Saca el molde (con cuidado, quema mucho), deja reposar 2 minutos para que no se desmorone y sírvelo. ¡Capa tras capa de sabor mexicano!",
+    "category": "airfryer",
+    "emoji": "🥘"
+  },
+  {
+    "id": "9a91831f-96c7-4d97-8f74-a9cabf825677",
+    "name": "Huevos Flamencos Ligeros al Airfryer",
+    "ingredients": [
+      "Huevos enteros",
+      "Tomate frito casero o triturado sin azúcar",
+      "Taquitos de jamón serrano o chorizo magro",
+      "Guisantes cocidos",
+      "Pimientos morrones asados en tiras",
+      "AOVE (Aceite de Oliva Virgen Extra)"
+    ],
+    "lastStep": "Saca la cazuela con un guante, déjala reposar 1 minuto (el barro retiene el calor y terminará de cuajar) y disfruta tu desayuno andaluz.",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "f7879439-d01c-454d-85a3-3080ca425e44",
+    "name": "Soufflé Ligero de Huevo con Poblano al Airfryer",
+    "ingredients": [
+      "Huevos",
+      "Chile poblano asado en tiras",
+      "Granos de elote cocidos",
+      "Queso panela o fresco en cubitos",
+      "Leche descremada o vegetal",
+      "Polvo para hornear",
+      "Aceite en spray y sal"
+    ],
+    "lastStep": "Saca el soufflé muy inflado y sírvelo de inmediato, ya que tiende a desinflarse con el aire frío. ¡Esponjoso y ligero!",
+    "category": "airfryer",
+    "emoji": "🥚"
+  },
+  {
+    "id": "d761293d-f5ef-4b0d-8429-e6684397195d",
+    "name": "Nido Fit de Calabacita Relleno de Huevo",
+    "ingredients": [
+      "Calabacita (zucchini)",
+      "Zanahoria",
+      "Huevo entero",
+      "Chorizo de soya desmenuzado",
+      "Queso Oaxaca o asadero light",
+      "Pico de gallo",
+      "Aceite en spray",
+      "Sal y pimienta"
+    ],
+    "lastStep": "Pon el queso encima en el último minuto. Saca, pasa un cuchillo por el borde para desmoldar y sirve con pico de gallo. ¡Un desayuno de autor, súper bajo en calorías!",
+    "category": "airfryer",
+    "emoji": "🪹"
+  },
+  {
+    "id": "e301090b-dea0-4f75-be18-5ecaa1aaeace",
+    "name": "Pechuga Rellena de Flor de Calabaza al Airfryer",
+    "ingredients": [
+      "Pechuga de pollo (abierta en mariposa)",
+      "Flor de calabaza",
+      "Queso Oaxaca light deshebrado",
+      "Cebolla blanca fileteada",
+      "Epazote fresco picado",
+      "Aceite en spray",
+      "Sal y pimienta negra"
+    ],
+    "lastStep": "Saca el rollo, déjalo reposar 2 minutos para que los jugos se asienten. Quita los palillos, córtalo en medallones y sirve. ¡Cena elegante y ligera!",
+    "category": "airfryer",
+    "emoji": "🍗"
+  },
+  {
+    "id": "82fcb27f-6dc4-4231-9ada-9c3c850f8e96",
+    "name": "Pescado Zarandeado en Hoja de Plátano al Airfryer",
+    "ingredients": [
+      "Filete de pescado blanco (tilapia o huachinango)",
+      "Mayonesa light",
+      "Mostaza amarilla",
+      "Salsa de soya baja en sodio",
+      "Pasta de chile guajillo",
+      "Cebolla morada fileteada",
+      "Hoja de plátano limpia",
+      "Limón (jugo)"
+    ],
+    "lastStep": "Saca el paquete, sírvelo sobre un plato en su misma hoja rústica y exprímele limón. ¡Una cena ligera, espectacular y con sabor a playa!",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "5993ca0d-9ee5-4070-a9da-f4829139e28a",
+    "name": "Enchiladas Suizas Gratinadas al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pechuga de pollo cocida y deshebrada",
+      "Queso asadero, manchego o chihuahua",
+      "Salsa verde cocida",
+      "Crema entera o media crema",
+      "Aguacate en rebanadas",
+      "Aceite en spray"
+    ],
+    "lastStep": "Saca el molde con cuidado (muy caliente), decora con las rebanadas de aguacate y sirve. ¡Cena espectacular!",
+    "category": "airfryer",
+    "emoji": "🥘"
+  },
+  {
+    "id": "6dc9e6bb-45bb-4a6c-8def-de0af8308bdc",
+    "name": "Empanadas Fit de Champiñón con Masa de Nopal",
+    "ingredients": [
+      "Nopal crudo limpio",
+      "Harina de avena",
+      "Champiñones frescos picados",
+      "Queso Oaxaca light deshebrado",
+      "Cebolla picada",
+      "Aceite en spray",
+      "Sal y pimienta"
+    ],
+    "lastStep": "Sácalas con cuidado porque la masa es frágil. Sírvelas calientes con tu salsa favorita. ¡Una cena artesanal de muy pocas calorías!",
+    "category": "airfryer",
+    "emoji": "🥟"
+  },
+  {
+    "id": "ff7f8e8c-9b03-4ff6-a2b7-2924d997f375",
+    "name": "Mini Tlayuda Oaxaqueña con Tasajo al Airfryer",
+    "ingredients": [
+      "Tortilla de maíz grande (tipo tlayuda mini)",
+      "Tasajo o cecina de res",
+      "Frijoles refritos (negros de preferencia)",
+      "Quesillo (Queso Oaxaca)",
+      "Col (repollo) rallada",
+      "Jitomate rebanado y Aguacate",
+      "Aceite en spray"
+    ],
+    "lastStep": "Decora con rebanadas de aguacate, ponle tu salsa roja o verde favorita y sirve abierta (o dóblala si prefieres). ¡Una cena oaxaqueña brutal!",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "bfe45687-a7a2-400a-a6fd-5f39a7e67c89",
+    "name": "Pimiento Relleno de Carne al Pastor",
+    "ingredients": [
+      "Pimiento morrón (rojo o verde)",
+      "Carne molida magra de cerdo o res",
+      "Pasta de achiote diluida en naranja y vinagre",
+      "Piña fresca en trocitos",
+      "Queso Oaxaca light o asadero",
+      "Cebolla y cilantro frescos finamente picados",
+      "Aceite en spray y sal"
+    ],
+    "lastStep": "Sácalo con cuidado, espolvorea por encima la cebolla y cilantro frescos. ¡Todo el sabor de los tacos al pastor en una cena baja en carbohidratos!",
+    "category": "airfryer",
+    "emoji": "🫑"
+  },
+  {
+    "id": "92c1a965-b8cd-4a6f-b3f2-3580161d9ad8",
+    "name": "Torta Ahogada Ligera de Pollo al Airfryer",
+    "ingredients": [
+      "Bolillo o birote integral (sin migajón)",
+      "Pechuga de pollo cocida y deshebrada",
+      "Frijoles refritos untables",
+      "Cebolla morada fileteada y desflemada (con limón)",
+      "Salsa de jitomate líquida (no picante)",
+      "Salsa de chile de árbol (picante)",
+      "Aceite en spray"
+    ],
+    "lastStep": "Corona la torta con la cebolla morada desflemada en limón. ¡Una versión tapatía altísima en proteína!",
+    "category": "airfryer",
+    "emoji": "🥖"
+  },
+  {
+    "id": "a55b32cf-7767-4967-9bf7-61a79a948260",
+    "name": "Chalupas Poblanas Fit al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz pequeñas (taqueras)",
+      "Pechuga de pollo cocida y deshebrada",
+      "Salsa verde casera espesa",
+      "Salsa roja casera espesa",
+      "Cebolla blanca finamente picada",
+      "Aceite de oliva (para barnizar)",
+      "Queso fresco espolvoreado"
+    ],
+    "lastStep": "Sírvelas rápido para que no se aguaden. ¡Una cena poblana tradicional adaptada perfectamente para no pasarse de calorías!",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "006c4f76-0c9a-4b1b-9353-3d154739b407",
+    "name": "Pambazo Fit Horneado con Soya al Airfryer",
+    "ingredients": [
+      "Telera o bolillo (sin migajón)",
+      "Papa cocida en cubitos pequeños",
+      "Chorizo de soya desmenuzado",
+      "Salsa de chile guajillo (para bañar)",
+      "Crema entera o media crema",
+      "Queso panela rallado",
+      "Lechuga finamente rebanada",
+      "Aceite en spray"
+    ],
+    "lastStep": "Coloca la tapa del pan, presiona ligeramente, córtalo a la mitad y sirve con salsa verde al gusto. ¡Antojo sin culpa!",
+    "category": "airfryer",
+    "emoji": "🥪"
+  },
+  {
+    "id": "fb5c7eda-c3ee-4f13-9549-cc08f5ee5068",
+    "name": "Huarache de Masa Azul con Arrachera al Airfryer",
+    "ingredients": [
+      "Masa de maíz azul (o blanco) hidratada",
+      "Arrachera marinada",
+      "Frijoles refritos",
+      "Nopal limpio",
+      "Queso Oaxaca o asadero deshebrado",
+      "Salsa roja o verde",
+      "Cebolla y cilantro picados",
+      "Aceite en spray"
+    ],
+    "lastStep": "Pásalo a un plato extendido, agrégale gotas de limón y disfruta una cena de callejera, pero controlada en macros.",
+    "category": "airfryer",
+    "emoji": "🩴"
+  },
+  {
+    "id": "213cf11d-58b9-4def-9205-924cdde25a0f",
+    "name": "Burrito Norteño de Machaca y Queso al Airfryer",
+    "ingredients": [
+      "Tortilla de harina grande (sobaquera o tipo burrito)",
+      "Machaca de res (carne seca deshebrada)",
+      "Huevos enteros",
+      "Queso Chihuahua o asadero",
+      "Frijoles refritos",
+      "Aguacate en rebanadas",
+      "Pico de gallo (jitomate, cebolla, chile)",
+      "Aceite o mantequilla fundida"
+    ],
+    "lastStep": "Sácalo, pártelo a la mitad en diagonal (corte sesgado) y acompáñalo con salsa de chile chiltepín. ¡Cenón hipercalórico norteño!",
+    "category": "airfryer",
+    "emoji": "🌯"
+  },
+  {
+    "id": "05555447-2064-4edc-83e4-8f3c5ed14135",
+    "name": "Gringa de Pastor con Costra al Airfryer",
+    "ingredients": [
+      "Tortillas de harina",
+      "Carne al pastor (preparada)",
+      "Queso asadero o Oaxaca",
+      "Piña fresca",
+      "Cebolla y cilantro picados",
+      "Salsa de tu preferencia",
+      "Aceite en spray"
+    ],
+    "lastStep": "Sácala, córtala en 4 triángulos, ábrela ligeramente para meterle cebolla, cilantro y salsa. ¡Una delicia de taquería en casa!",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "610e7b13-afc4-42d8-ad12-7e83e0b0462d",
+    "name": "Timbal de Pisto y Huevo con Crujiente de Jamón",
+    "ingredients": [
+      "Tomate maduro",
+      "Cebolla",
+      "Pimiento verde y rojo",
+      "Huevo",
+      "Loncha de jamón serrano",
+      "Pan de centeno 100%",
+      "AOVE (Aceite de Oliva Virgen Extra)",
+      "Sal y pimienta"
+    ],
+    "lastStep": "Pasa un cuchillo por el borde, desmolda como un timbal, clava la peineta del crujiente de jamón encima y acompaña con el pan. ¡Una obra de arte para desayunar!",
+    "category": "airfryer",
+    "emoji": "🍅"
+  },
+  {
+    "id": "fc4129ef-9dcf-45b1-afd4-5050d5b710ce",
+    "name": "Nachos Caseros Ligeros al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Carne molida de res magra (ya cocinada)",
+      "Queso cheddar o asadero rallado",
+      "Frijoles refritos",
+      "Guacamole casero",
+      "Jalapeños en vinagre",
+      "Aceite en spray y pizca de sal"
+    ],
+    "lastStep": "Saca con cuidado, corona los nachos con el guacamole y los chiles jalapeños. ¡Cena lista en minutos!",
+    "category": "airfryer",
+    "emoji": "🧀"
+  },
+  {
+    "id": "5cbfb05f-8b8d-4922-a1fd-55fb35a2a8b2",
+    "name": "Volcán Gigante de Asada al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Carne asada picada",
+      "Queso asadero o Chihuahua rallado",
+      "Aguacate rebanado",
+      "Pico de gallo fresco",
+      "Aceite en spray"
+    ],
+    "lastStep": "Corona con el pico de gallo y salsa. ¡Una cena taquera enorme (más de 500 kcal) hecha en minutos!",
+    "category": "airfryer",
+    "emoji": "🌋"
+  },
+  {
+    "id": "8b777701-6f8f-48a0-93ba-5855665945fa",
+    "name": "Tacos Dorados de Pollo Sin Aceite al Airfryer",
+    "ingredients": [
+      "Tortillas de maíz",
+      "Pechuga de pollo cocida y deshebrada",
+      "Lechuga romana picada",
+      "Queso fresco desmoronado",
+      "Crema reducida en grasa",
+      "Salsa de tomate o verde",
+      "Aceite en spray"
+    ],
+    "lastStep": "Cubre los tacos con la lechuga, agrega los hilitos de crema, espolvorea el queso y baña en salsa. ¡Cena ligera lista!",
+    "category": "airfryer",
+    "emoji": "🌮"
+  },
+  {
+    "id": "c5fd4d80-4291-41f4-8dcb-467c01b5d7d4",
+    "name": "Pescado Empapelado al Chipotle en Airfryer",
+    "ingredients": [
+      "Filete de pescado blanco (tilapia, basa, mero)",
+      "Pimientos y cebolla fileteados",
+      "Mayonesa light",
+      "Salsa de chile chipotle molido",
+      "Aceite de oliva o mantequilla",
+      "Sal, pimienta y orégano seco",
+      "Jugo de limón"
+    ],
+    "lastStep": "Abre el papel con cuidado para no quemarte con el vapor. Exprime jugo de limón encima y disfruta una cena ligerísima y sin ensuciar casi nada.",
+    "category": "airfryer",
+    "emoji": "🐟"
+  },
+  {
+    "id": "0e4cf71c-a51d-4611-810d-4f7827f72c9d",
+    "name": "Cachopo Asturiano de Ternera y Jamón al Airfryer",
+    "ingredients": [
+      "Filetes de ternera muy finos (2 unidades)",
+      "Jamón serrano en lonchas",
+      "Queso manchego semicurado (o provolone)",
+      "Huevo batido",
+      "Pan rallado grueso o Panko",
+      "AOVE (Aceite de Oliva Virgen Extra) en spray",
+      "Pimientos del piquillo (guarnición)",
+      "Sal y pimienta negra recién molida"
+    ],
+    "lastStep": "Sácalo, déjalo reposar 2 minutos para que el queso se asiente. Córtalo a la mitad y acompáñalo con los pimientos del piquillo. ¡Un manjar ibérico!",
+    "category": "airfryer",
+    "emoji": "🥩"
+  },
+  {
+    "id": "dddaaebc-8cf1-43ca-aace-956cb4114f85",
+    "name": "Huevos Rotos con Jamón Ibérico al Airfryer",
+    "ingredients": [
+      "Patatas peladas",
+      "Huevos frescos",
+      "Jamón ibérico o serrano",
+      "AOVE (Aceite de Oliva Virgen Extra)",
+      "Pimentón dulce de la Vera",
+      "Sal gruesa y pimienta"
+    ],
+    "lastStep": "Sácalo, rompe las yemas con un tenedor para que mojen las patatas, pon el jamón por encima y espolvorea pimentón dulce. ¡Una maravilla clásica!",
+    "category": "airfryer",
+    "emoji": "🍳"
+  },
+  {
+    "id": "55062701-c7be-4f1b-b79b-7378ca78243c",
+    "name": "Tortilla de Patatas Ligera al Airfryer",
+    "ingredients": [
+      "Patatas crudas",
+      "Huevos enteros",
+      "Cebolla",
+      "AOVE (Aceite de Oliva Virgen Extra)",
+      "Sal de mar"
+    ],
+    "lastStep": "Saca el molde con cuidado, deja templar unos minutos, tira del papel vegetal para desmoldar y ¡lista tu tortilla de patatas con fracción de grasa!",
+    "category": "airfryer",
+    "emoji": "🥔"
+  },
+  {
+    "id": "deb8b118-c393-47a6-ab5e-c1abf98cfec6",
+    "name": "Berenjenas Rellenas de Atún a la Menorquina",
+    "ingredients": [
+      "Berenjena fresca",
+      "Atún al natural escurrido",
+      "Salsa de tomate frito casero",
+      "Queso rallado para gratinar (Gouda o Mozzarella)",
+      "AOVE (Aceite de Oliva Virgen Extra)",
+      "Cebolla blanca",
+      "Sal y orégano"
+    ],
+    "lastStep": "Retíralas con mucho cuidado con una espátula. ¡A disfrutar una cena española muy ligera!",
+    "category": "airfryer",
+    "emoji": "🍆"
+  },
+  {
+    "id": "d060248c-04d1-4961-b0f7-f45ba4dded36",
+    "name": "Tostada de Tomate y Huevos de Codorniz al Airfryer",
+    "ingredients": [
+      "Pan rústico o de masa madre",
+      "Tomate pera rallado",
+      "Huevos de codorniz",
+      "Jamón ibérico o serrano",
+      "AOVE (Aceite de Oliva Virgen Extra)",
+      "Sal en escamas"
+    ],
+    "lastStep": "Sácala, rocía las gotas de AOVE, pon la loncha de jamón encima y añade escamas de sal. ¡Desayuno español de lujo!",
+    "category": "airfryer",
+    "emoji": "🥖"
+  },
+  {
+    "id": "46ca7a4e-52aa-4e2d-83ac-b03037539945",
+    "name": "Bocadillo Tostado de Tortilla y Jamón al Airfryer",
+    "ingredients": [
+      "Pan tipo baguette o rústico",
+      "Huevos enteros",
+      "Jamón ibérico o serrano",
+      "Queso semicurado en lonchas",
+      "Tomate maduro para untar",
+      "AOVE (Aceite de Oliva Virgen Extra)"
+    ],
+    "lastStep": "Cierra el bocadillo con la tapa tostada, presiona ligeramente y disfruta de un desayuno súper potente.",
+    "category": "airfryer",
+    "emoji": "🥖"
+  },
+  {
+    "id": "a90e345b-d8ba-48b7-9700-edea0556a04b",
+    "name": "Churros Caseros Horneados al Airfryer",
+    "ingredients": [
+      "Harina de trigo de todo uso",
+      "Agua",
+      "Mantequilla",
+      "Huevo",
+      "Azúcar mezclada con canela",
+      "Cacao en polvo o chocolate espeso",
+      "Sal",
+      "Aceite en spray"
+    ],
+    "lastStep": "Sírvelos crujientes acompañados de una tacita de chocolate espeso para mojar. ¡Un desayuno de domingo espectacular!",
+    "category": "airfryer",
+    "emoji": "☕"
+  },
+  {
+    "id": "c091c632-9afb-49a9-a579-0a3de15257e3",
+    "name": "Nido de Espinacas a la Catalana al Airfryer",
+    "ingredients": [
+      "Espinacas frescas",
+      "Huevo",
+      "Piñones ibéricos",
+      "Uvas pasas sultanas",
+      "Ajo fresco",
+      "Sal y pimienta negra",
+      "Aceite en spray"
+    ],
+    "lastStep": "Saca con cuidado el molde, pasa un cuchillo por el borde y desmolda el nido en tu plato. ¡Desayuno súper ligero y técnico!",
+    "category": "airfryer",
+    "emoji": "🥗"
+  }
+]

@@ -357,7 +357,11 @@ export default function RecipeDetail({ params }: { params: Promise<{ category: s
           </div>
           
           <div className="w-full h-64 sm:h-80 lg:h-96 bg-gradient-to-br from-[var(--color-sage-200)] to-[var(--color-sand-200)] rounded-3xl sm:rounded-[2.5rem] flex items-center justify-center text-8xl sm:text-9xl relative overflow-hidden shadow-md mb-8">
-            <span className="relative z-10 hover:scale-110 transition-transform duration-500 cursor-default drop-shadow-xl">{recipe.emoji_representativo || "🍲"}</span>
+            {recipe.imagen_url ? (
+              <img src={recipe.imagen_url} alt={recipe.nombre_receta} className="absolute inset-0 w-full h-full object-cover" />
+            ) : (
+              <span className="relative z-10 hover:scale-110 transition-transform duration-500 cursor-default drop-shadow-xl">{recipe.emoji_representativo || "🍲"}</span>
+            )}
             
             <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 flex gap-2 sm:gap-3 z-10 flex-wrap">
               <span className="glass-button px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-black text-[var(--color-sage-900)] shadow-lg">⏱ {recipe.tiempo_total_preparacion || 0} min</span>

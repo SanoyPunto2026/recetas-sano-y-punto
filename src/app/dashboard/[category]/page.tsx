@@ -162,8 +162,12 @@ export default function CategoryVault({ params }: { params: Promise<{ category: 
             {filteredRecipes.map((recipe) => (
               <Link href={`/dashboard/${category}/${recipe.id}`} key={recipe.id}>
                 <div className="glass bg-white/60 rounded-3xl p-6 py-8 md:p-8 flex gap-5 md:gap-6 items-center group cursor-pointer border border-white hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
-                  <div className="w-24 h-24 md:w-28 md:h-28 rounded-2xl bg-[var(--color-sage-100)] flex-shrink-0 border border-white flex items-center justify-center text-5xl md:text-6xl shadow-sm group-hover:bg-[var(--color-sage-200)] transition-colors">
-                    {recipe.emoji_representativo || "🍽️"}
+                  <div className="w-24 h-24 md:w-28 md:h-28 rounded-2xl bg-[var(--color-sage-100)] flex-shrink-0 border border-white flex items-center justify-center text-5xl md:text-6xl shadow-sm group-hover:bg-[var(--color-sage-200)] transition-colors overflow-hidden">
+                    {recipe.imagen_url ? (
+                      <img src={recipe.imagen_url} alt={recipe.nombre_receta} className="w-full h-full object-cover" />
+                    ) : (
+                      recipe.emoji_representativo || "🍽️"
+                    )}
                   </div>
                   <div className="flex flex-col flex-grow">
                     <h3 className="text-lg md:text-xl font-semibold tracking-tight leading-tight text-[var(--color-sage-900)] mb-3 group-hover:text-[var(--color-sage-600)] transition-colors">{recipe.nombre_receta}</h3>
