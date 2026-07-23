@@ -11,7 +11,7 @@ export default function StickyHeader({ hideButton = false }: { hideButton?: bool
                   <Leaf size={24} className="text-[#4A6741]" />
                </div>
                <div className="flex flex-col leading-none">
-                  <div className="text-[22px] md:text-3xl font-black tracking-tighter text-[#1A1C1A] flex items-center gap-1" style={{ fontFamily: 'Arial, sans-serif' }}>
+                  <div className="text-[22px] md:text-3xl font-black tracking-tighter text-[#1A1C1A] flex items-center gap-1" style={{ fontFamily: '"Arial Black", Arial, sans-serif' }}>
                      <span>Sano &</span>
                      <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-[#4A6741] to-[#8B7355]">Punto.</span>
                   </div>
