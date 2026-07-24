@@ -1,4 +1,5 @@
 'use client';
+import { useState } from 'react';
 import { ArrowRight, Play, ShieldCheck, Lock, Star } from 'lucide-react';
 
 export default function HeroSection() {
