@@ -39,6 +39,11 @@ export default function RootLayout({
       lang="es"
       className={`${outfit.variable} ${dmSerif.variable} ${montserrat.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="preconnect" href="https://fast.wistia.net" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fast.wistia.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://embed-ssl.wistia.com" crossOrigin="anonymous" />
+      </head>
       <body className="min-h-full flex flex-col font-[var(--font-outfit)]">{children}</body>
     </html>
   );
