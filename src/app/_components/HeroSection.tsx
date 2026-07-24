@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { ArrowRight, Play, ShieldCheck, Lock, Star } from 'lucide-react';
+import Image from 'next/image';
 
 export default function HeroSection() {
    const [playVideo, setPlayVideo] = useState(false);
@@ -39,7 +40,16 @@ export default function HeroSection() {
                ) : (
                   <>
                      {/* Fondo simulando video */}
-                     <div className="absolute inset-0 bg-[url('/vsl_thumbnail.png')] bg-cover bg-center group-hover:scale-[1.02] transition-transform duration-700"></div>
+                     <div className="absolute inset-0 group-hover:scale-[1.02] transition-transform duration-700">
+                        <Image 
+                           src="/vsl_thumbnail.png" 
+                           alt="Miniatura de video" 
+                           fill 
+                           sizes="(max-width: 768px) 100vw, 900px"
+                           className="object-cover"
+                           priority
+                        />
+                     </div>
                      
                      {/* Botón Play */}
                      <div className="absolute inset-0 flex items-center justify-center">
