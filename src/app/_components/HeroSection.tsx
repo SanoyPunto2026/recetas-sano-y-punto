@@ -2,6 +2,8 @@
 import { ArrowRight, Play, ShieldCheck, Lock, Star } from 'lucide-react';
 
 export default function HeroSection() {
+   const [playVideo, setPlayVideo] = useState(false);
+
    return (
       <section className="pt-[40px] md:pt-[60px] pb-[40px] md:pb-[60px] px-6 text-center">
          <div className="max-w-[900px] mx-auto">
@@ -16,18 +18,37 @@ export default function HeroSection() {
                </span>
             </h1>
 
-            {/* 2. Video Placeholder */}
-            <div className="relative w-full aspect-video bg-[#253725] rounded-3xl md:rounded-[40px] overflow-hidden shadow-2xl mb-10 group cursor-pointer border border-[#EBE6DD]/20">
-               {/* Fondo simulando video */}
-               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay group-hover:opacity-50 transition-opacity duration-700"></div>
-               <div className="absolute inset-0 bg-gradient-to-t from-[#253725]/80 via-transparent to-transparent"></div>
-               
-               {/* Botón Play (solo visual) */}
-               <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-20 h-20 md:w-24 md:h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-white/30 transition-all duration-300 shadow-xl border border-white/30">
-                     <Play className="text-white w-8 h-8 md:w-10 md:h-10 ml-2" fill="currentColor" />
-                  </div>
-               </div>
+            {/* 2. Video Placeholder / Wistia Embed */}
+            <div 
+               onClick={() => setPlayVideo(true)}
+               className="relative w-full aspect-video bg-[#253725] rounded-3xl md:rounded-[40px] overflow-hidden shadow-2xl mb-10 group cursor-pointer border border-[#EBE6DD]/20"
+            >
+               {playVideo ? (
+                  <iframe 
+                     src="https://fast.wistia.net/embed/iframe/txo1m9954y?autoPlay=true" 
+                     title="Wistia video player" 
+                     allow="autoplay; fullscreen" 
+                     allowTransparency={true}
+                     frameBorder="0" 
+                     scrolling="no" 
+                     className="absolute inset-0 w-full h-full" 
+                     width="100%" 
+                     height="100%"
+                  />
+               ) : (
+                  <>
+                     {/* Fondo simulando video */}
+                     <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay group-hover:opacity-50 transition-opacity duration-700"></div>
+                     <div className="absolute inset-0 bg-gradient-to-t from-[#253725]/80 via-transparent to-transparent"></div>
+                     
+                     {/* Botón Play */}
+                     <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-20 h-20 md:w-24 md:h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center group-hover:scale-110 group-hover:bg-white/30 transition-all duration-300 shadow-xl border border-white/30">
+                           <Play className="text-white w-8 h-8 md:w-10 md:h-10 ml-2" fill="currentColor" />
+                        </div>
+                     </div>
+                  </>
+               )}
             </div>
 
             {/* 3. Texto corto para aterrizar */}
