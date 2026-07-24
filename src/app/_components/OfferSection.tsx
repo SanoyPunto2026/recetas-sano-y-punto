@@ -29,7 +29,6 @@ export default function OfferSection() {
                         fill
                         sizes="(max-width: 768px) 75vw, 340px"
                         className="object-contain"
-                        priority
                      />
                   </div>
                </div>
