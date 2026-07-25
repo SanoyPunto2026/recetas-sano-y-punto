@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { Flame, Wheat, Croissant, Cake, Globe, Salad, Lock, Image as ImageIcon } from 'lucide-react';
+import Image from 'next/image';
 
 const SectionTitle = ({ children, subtitle }: { children: React.ReactNode; subtitle?: string }) => (
    <div className="mb-16 md:mb-24 text-center">
@@ -25,7 +26,7 @@ const vaults = [
       description: "Platos crujientes, rápidos y con mínimo aceite. El futuro de la cocina saludable.", 
       available: true,
       tag: "DISPONIBLE AHORA",
-      image: "/vault_airfryer.jpg"
+      image: "/vault_airfryer.webp"
    },
    { 
       icon: Salad, 
@@ -33,7 +34,7 @@ const vaults = [
       description: "Almuerzos y cenas listas en 15-20 minutos. Cero excusas, máximo sabor.", 
       available: false,
       tag: "PRÓXIMAMENTE",
-      image: "/vault_rapidas.jpg"
+      image: "/vault_rapidas.webp"
    },
    { 
       icon: Wheat, 
@@ -41,7 +42,7 @@ const vaults = [
       description: "Recetas completas y deliciosas, 100% libres de gluten para toda la familia.", 
       available: false,
       tag: "PRÓXIMAMENTE",
-      image: "/vault_singluten.jpg"
+      image: "/vault_singluten.webp"
    },
    { 
       icon: Croissant, 
@@ -49,7 +50,7 @@ const vaults = [
       description: "Panes artesanales, baguettes y bollería que nadie creerá que son sin gluten.", 
       available: false,
       tag: "PRÓXIMAMENTE",
-      image: "/vault_panaderia.jpg"
+      image: "/vault_panaderia.webp"
    },
    { 
       icon: Cake, 
@@ -57,7 +58,7 @@ const vaults = [
       description: "Tartas, galletas, brownies y pudines gourmet sin una pizca de gluten.", 
       available: false,
       tag: "PRÓXIMAMENTE",
-      image: "/vault_postres.jpg"
+      image: "/vault_postres.webp"
    },
    { 
       icon: Globe, 
@@ -65,7 +66,7 @@ const vaults = [
       description: "Lo mejor de la dieta más saludable del mundo, adaptada a tu cocina.", 
       available: false,
       tag: "PRÓXIMAMENTE",
-      image: "/vault_mediterranea.jpg"
+      image: "/vault_mediterranea.webp"
    },
 ];
 
@@ -119,9 +120,11 @@ export default function VaultsSection() {
                      <div className={`w-full aspect-video rounded-2xl mb-5 flex items-center justify-center overflow-hidden border relative ${
                         vault.available ? 'border-[#345334]/15 shadow-sm' : 'border-[#EBE6DD]/60'
                      }`}>
-                        <img 
+                        <Image 
                            src={vault.image} 
                            alt={vault.name} 
+                           width={400}
+                           height={225}
                            className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${
                               !vault.available ? 'opacity-85 grayscale-[15%]' : ''
                            }`}
