@@ -115,8 +115,8 @@ export default function VaultsSection() {
                         {vault.tag}
                      </div>
 
-                     {/* Book Image */}
-                     <div className={`w-full aspect-[3/4] rounded-2xl mb-5 flex items-center justify-center overflow-hidden border relative ${
+                     {/* Recipe Image */}
+                     <div className={`w-full aspect-video rounded-2xl mb-5 flex items-center justify-center overflow-hidden border relative ${
                         vault.available ? 'border-[#345334]/15 shadow-sm' : 'border-[#EBE6DD]/60'
                      }`}>
                         <img 
