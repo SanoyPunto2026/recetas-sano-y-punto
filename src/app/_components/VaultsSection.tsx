@@ -24,42 +24,48 @@ const vaults = [
       name: "Recetas en Airfryer", 
       description: "Platos crujientes, rápidos y con mínimo aceite. El futuro de la cocina saludable.", 
       available: true,
-      tag: "DISPONIBLE AHORA"
+      tag: "DISPONIBLE AHORA",
+      image: "/vault_airfryer.jpg"
    },
    { 
       icon: Salad, 
       name: "Comidas Rápidas Sanas", 
       description: "Almuerzos y cenas listas en 15-20 minutos. Cero excusas, máximo sabor.", 
       available: false,
-      tag: "PRÓXIMAMENTE"
+      tag: "PRÓXIMAMENTE",
+      image: "/vault_rapidas.jpg"
    },
    { 
       icon: Wheat, 
       name: "Sin Gluten", 
       description: "Recetas completas y deliciosas, 100% libres de gluten para toda la familia.", 
       available: false,
-      tag: "PRÓXIMAMENTE"
+      tag: "PRÓXIMAMENTE",
+      image: "/vault_singluten.jpg"
    },
    { 
       icon: Croissant, 
       name: "Panadería Sin Gluten", 
       description: "Panes artesanales, baguettes y bollería que nadie creerá que son sin gluten.", 
       available: false,
-      tag: "PRÓXIMAMENTE"
+      tag: "PRÓXIMAMENTE",
+      image: "/vault_panaderia.jpg"
    },
    { 
       icon: Cake, 
       name: "Postres y Repostería", 
       description: "Tartas, galletas, brownies y pudines gourmet sin una pizca de gluten.", 
       available: false,
-      tag: "PRÓXIMAMENTE"
+      tag: "PRÓXIMAMENTE",
+      image: "/vault_postres.jpg"
    },
    { 
       icon: Globe, 
       name: "Cocina Mediterránea", 
       description: "Lo mejor de la dieta más saludable del mundo, adaptada a tu cocina.", 
       available: false,
-      tag: "PRÓXIMAMENTE"
+      tag: "PRÓXIMAMENTE",
+      image: "/vault_mediterranea.jpg"
    },
 ];
 
@@ -109,11 +115,20 @@ export default function VaultsSection() {
                         {vault.tag}
                      </div>
 
-                     {/* Image Placeholder */}
-                     <div className={`w-full aspect-video rounded-2xl mb-5 flex items-center justify-center overflow-hidden border ${
-                        vault.available ? 'bg-[#345334]/5 border-[#345334]/10' : 'bg-[#f5f2eb] border-[#EBE6DD]'
+                     {/* Book Image */}
+                     <div className={`w-full aspect-[3/4] rounded-2xl mb-5 flex items-center justify-center overflow-hidden border relative ${
+                        vault.available ? 'border-[#345334]/15 shadow-sm' : 'border-[#EBE6DD]/60'
                      }`}>
-                        <ImageIcon size={32} className={vault.available ? "text-[#345334]/20" : "text-[#654836]/20"} />
+                        <img 
+                           src={vault.image} 
+                           alt={vault.name} 
+                           className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${
+                              !vault.available ? 'opacity-85 grayscale-[15%]' : ''
+                           }`}
+                        />
+                        {!vault.available && (
+                           <div className="absolute inset-0 bg-black/5 backdrop-blur-[1px] transition-all duration-355 group-hover:backdrop-blur-none" />
+                        )}
                      </div>
 
                      <div className="flex items-center gap-3 mb-3">
